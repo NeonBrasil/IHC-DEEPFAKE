@@ -1,17 +1,20 @@
-Projeto de IHC
+**Projeto de IHC**
 
-Projeto G
+**Projeto XX**
 
-<Detecção de DeepFakes e awareness sobre fake news e desinformação>
+**\<Detecção de DeepFakes e awareness sobre fake news e desinformação\>**
 
-Membros de Equipe: Cayque, Arthur, Yuri
-# Entrega 1 (19/08) [concluído]
+**Membros de Equipe: Cayque, Arthur, Yuri**
+# **Entrega 1 (19/08) [concluído]**
 
 # 
 
 **1\) Conhecendo o Problema** 
 
-1.1) Membros de Equipe (nome completo e número de matrícula): Cayque Cicarelli - 22.221.005-6, Arthur Veloso - 22.221.038-7 e Yuri Bykoff - 22.121.045-3
+1.1) Membros de Equipe (nome completo e número de matrícula): <br>
+Cayque Cicarelli - 22.221.005-6 <br>
+Arthur Veloso - 22.221.038-7 <br>
+Yuri Bykoff - 22.121.045-3 <br>
 
 1.2) Título Original do TCC: Detecção de Deepfakes utilizando EfficientNet-B0 para Conscientização Digital
 
@@ -34,35 +37,29 @@ probabilidade de ser um conteúdo manipulado. Além da ferramenta de detecção,
 produto final incluirá uma seção educativa com informações, exemplos e notícias sobre o
 tema.
 
-1.7) Quem é o usuário final deste produto?
-  O público-alvo é amplo, incluindo:
-O Cidadão Comum: Pessoas que consomem conteúdo em redes sociais e desejam
-verificar a autenticidade de vídeos antes de compartilhar, combatendo a
-desinformação.
-
-Estudantes e Curiosos: Indivíduos interessados em aprender sobre novas
-tecnologias, inteligência artificial e seus impactos na sociedade.
-
-Jornalistas e Criadores de Conteúdo: Profissionais que precisam de uma
-ferramenta de apoio para a verificação de fontes e materiais audiovisuais.
+1.7) Quem é o usuário final deste produto? <br>
+  O público-alvo é amplo, incluindo: <br>
+* Público educacional: pessoas interessadas em adquirir conhecimento sobre o tema de deepfakes para estudos. <br>
+* Público profissional: jornalistas e veículos de mídia que necessitam autenticar conteúdos antes da publicação. <br>
+* Público tecnológico: comunidade envolvida com segurança digital e pesquisadores de inteligência artificial. <br>
+* Sociedade no geral: Cidadãos preocupados em saber distinguir conteúdos verdadeiros de conteúdos falsos. <br>
+* Criadores de conteúdo digital: profissionais que buscam proteger sua imagem contra usos indevidos ou ataques. <br>
 
 1.8) O que o usuário recebe de benefício ao usar esse produto? 
   Empoderamento Digital: A capacidade de verificar ativamente a autenticidade de um
 conteúdo, tornando-se menos vulnerável a manipulações e fake news.
 
-Conhecimento e Educação: Acesso a informações claras e consolidadas sobre a
+  Conhecimento e Educação: Acesso a informações claras e consolidadas sobre a
 tecnologia deepfake, promovendo um entendimento mais profundo sobre o mundo
 digital contemporâneo.
 
-Segurança: Uma camada extra de proteção contra fraudes e golpes que possam utilizar
+  Segurança: Uma camada extra de proteção contra fraudes e golpes que possam utilizar
 essa tecnologia.
 
 1.9) Quais as funcionalidades da ferramenta (visão do usuário)?
-  Funcionalidade Principal: Upload de arquivo de vídeo para análise de deepfake.
-
-Visualização de Resultado: Exibição do resultado da análise de forma clara e intuitiva.
-
-Área Educacional: Uma seção na plataforma com artigos, vídeos explicativos e
+* Funcionalidade Principal: Upload de arquivo de vídeo para análise de deepfake.
+* Visualização de Resultado: Exibição do resultado da análise de forma clara e intuitiva.
+* Área Educacional: Uma seção na plataforma com artigos, vídeos explicativos e
 exemplos práticos de deepfakes (tanto para o bem quanto para o mal).
 
 1.10) Quais tecnologias e ferramentas computacionais que pretendem usar neste projeto (TCC)?
