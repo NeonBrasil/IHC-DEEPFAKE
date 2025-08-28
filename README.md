@@ -95,3 +95,37 @@ exigindo uma interface responsiva. Uma conexão de internet estável será neces
 para o envio do vídeo para análise. O usuário pode não ter conhecimento técnico
 profundo, portanto, a usabilidade deve ser simples e direta.
 
+
+# **Entrega 2  (data) \[em andamento/concluído\]**
+
+**\[1 solução completa por pessoa da equipe\]**
+
+**Dica: fator mais importante desta entrega é a equipe conseguir identificar e documentar prints de telas de interfaces concorrentes (ou interfaces representativas para o público alvo). Esses prints serão usados na fase de caracterização de padrões, affordances, heurísticas, etc.**
+
+1) **Público Alvo**
+
+2) **Análise de Concorrência (quando identificado concorrência \- ATENÇÃO: CONCORRENTE NÃO É IDÊNTICO E SIM ATUANDO NA MESMA ÁREA)**  
+1. **Principais concorrentes mais utilizados pelo seu público-alvo (link, descrição e imagens de ilustração):**
+
+2. **Características e funcionalidades dos concorrentes:**
+
+3. **Experiência do usuário (UX) e pesquisa de satisfação do cliente e opiniões:**
+
+4. **Preços e modelos de negócio:**
+
+5. **Padrões e tendências no mercado:**
+
+**Referências:**
+
+3) **Análise de Concorrência BASEADO NOS SOFTWARES QUE O PÚBLICO ALVO USA**   
+6. **Principais softwares mais utilizados pelo seu público-alvo (link, descrição e imagens de ilustração). SOFTWARES que seu público mais utiliza no dia a dia, para fazer suas tarefas:**
+
+7. **Características e funcionalidades dos Softwares:**
+
+8. **Experiência do usuário (UX) e pesquisa de satisfação do cliente e opiniões:**
+
+9. **Preços e modelos de negócio:**
+
+10. **Padrões e tendências no mercado:**
+
+**Referências:**
