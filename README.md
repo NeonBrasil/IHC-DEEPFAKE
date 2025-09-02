@@ -131,10 +131,10 @@ profundo, portanto, a usabilidade deve ser simples e direta.
       *  **SENSITY**: A Sensity AI é frequentemente elogiada por sua eficácia na detecção de deepfakes e pela facilidade de uso de sua interface. Além disso, a plataforma pode ser utilizada de forma flexível como aplicativo web, API ou SDK.
       *  **Hacker News:** O site é elogiado por sua simplicidade, destacando-se pela ausência de elementos desnecessários. No entanto, esse aspecto gera opiniões divididas. Alguns usuários também apontaram que o campo de comentários poderia ser maior, pois sua largura atual é considerada pequena.
 
-3. **Preços e modelos de negócio:**
+5. **Preços e modelos de negócio:**
    Os concorrentes tendem a utilizar o modelo Fremium onde poucos usos são gratuitos e outros não. No nosso caso vamos manter o uso gratuito com apenas limitações de usos por dia.
 
-4. **Padrões e tendências no mercado:**
+6. **Padrões e tendências no mercado:**
    Atualmente as tendências do mercado estão focadas em designs simples com poucas informações.
    
 
@@ -148,7 +148,7 @@ profundo, portanto, a usabilidade deve ser simples e direta.
 * https://medium.com/%40danelyons/hacker-news-ux-review-july-2018-a06910bff8f1
 * https://www.uxbeginner.com/hacker-news-uxui-redesign-process/
 
-5) **Análise de Concorrência BASEADO NOS SOFTWARES QUE O PÚBLICO ALVO USA**   
+3) **Análise de Concorrência BASEADO NOS SOFTWARES QUE O PÚBLICO ALVO USA**   
 6. **Principais softwares mais utilizados pelo seu público-alvo (link, descrição e imagens de ilustração). SOFTWARES que seu público mais utiliza no dia a dia, para fazer suas tarefas:**
 
 7. **Características e funcionalidades dos Softwares:**
