@@ -93,7 +93,7 @@ para o envio do vídeo para análise. O usuário pode não ter conhecimento téc
 profundo, portanto, a usabilidade deve ser simples e direta.
 
 
-# **Entrega 2  (02/09) \[em andamento\]**
+# **Entrega 2  (02/09) [concluído]**
 
 1. **Público Alvo:**
 * Público educacional: professores, estudantes.
@@ -131,12 +131,28 @@ profundo, portanto, a usabilidade deve ser simples e direta.
       *  **SENSITY**: A Sensity AI é frequentemente elogiada por sua eficácia na detecção de deepfakes e pela facilidade de uso de sua interface. Além disso, a plataforma pode ser utilizada de forma flexível como aplicativo web, API ou SDK.
       *  **Hacker News:** O site é elogiado por sua simplicidade, destacando-se pela ausência de elementos desnecessários. No entanto, esse aspecto gera opiniões divididas. Alguns usuários também apontaram que o campo de comentários poderia ser maior, pois sua largura atual é considerada pequena.
 
-5. **Preços e modelos de negócio:**
-   Os concorrentes tendem a utilizar o modelo Fremium onde poucos usos são gratuitos e outros não. No nosso caso vamos manter o uso gratuito com apenas limitações de usos por dia.
+    2.4. **Preços e modelos de negócio:**
+      * **COURSERA:** Seu modelo de negócio é baseado na oferta de cursos pagos individualmente com certificados, em assinaturas como o Coursera Plus que permitem acesso ilimitado e em parcerias corporativas com empresas e instituições que compram pacotes de treinamento para seus colaboradores. (Licença anual por volta de US$ 167,30 USD).
+      * **Hacker News:** O Hacker News é um site de comunidade e notícias voltado para tecnologia e empreendedorismo, mantido pelo fundo de investimentos Y Combinator. Diferente de plataformas tradicionais, não possui foco direto em monetização por anúncios, funcionando como um espaço de engajamento e troca de conhecimento entre desenvolvedores, fundadores e entusiastas. Assim, contribui para reforçar o ecossistema da Y Combinator, ampliando sua visibilidade e atraindo talentos e startups. (Não há valores repaçados para usuários).
+      *  **SENSITY:** Seu modelo de negócio é voltado para o mercado corporativo e governamental, funcionando como um serviço em nuvem no formato SaaS. A empresa oferece uma plataforma de monitoramento contínuo, além de APIs e SDKs que permitem integrar suas soluções diretamente aos sistemas dos clientes, agregando valor através de segurança digital especializada.
+   
 
 6. **Padrões e tendências no mercado:**
-   Atualmente as tendências do mercado estão focadas em designs simples com poucas informações.
+     * Público educacional (professores e estudantes):
+        * Interface simples e acessível: design limpo, intuitivo e responsivo.
+        * Acessibilidade: recursos como legendas automáticas.
+        * Multiplataforma: disponibilidade em mobile, desktop e outros dispositivos.
+          
+      * Público profissional (jornalistas e veículos de mídia):
+        * Foco na clareza da informação (hierarquia visual).
+        * Minimalismo funcional (evitar excesso de elementos).
+        * Ferramentas integradas para checagem e análise de dados/notícias em tempo real.
    
+      * Público tecnológico (comunidade de segurança digital):
+        * Design minimalista e sem distrações (ex.: Hacker News, GitHub).
+        * Eficiência e rapidez acima da estética.
+        * Alta personalização de recursos e fluxos de trabalho.
+        * Integração via APIs e open source, reforçando transparência e colaboração.
 
 **Referências:**
 * https://www.coursera.org/
@@ -147,6 +163,7 @@ profundo, portanto, a usabilidade deve ser simples e direta.
 * https://socradar.io/top-10-ai-deepfake-detection-tools-2025/
 * https://medium.com/%40danelyons/hacker-news-ux-review-july-2018-a06910bff8f1
 * https://www.uxbeginner.com/hacker-news-uxui-redesign-process/
+* https://www.enacton.com/blog/coursera-business-model
 
 3) **Análise de Concorrência BASEADO NOS SOFTWARES QUE O PÚBLICO ALVO USA**   
 6. **Principais softwares mais utilizados pelo seu público-alvo (link, descrição e imagens de ilustração). SOFTWARES que seu público mais utiliza no dia a dia, para fazer suas tarefas:**
