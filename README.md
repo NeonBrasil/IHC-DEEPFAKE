@@ -137,7 +137,7 @@ profundo, portanto, a usabilidade deve ser simples e direta.
       *  **SENSITY:** Seu modelo de negócio é voltado para o mercado corporativo e governamental, funcionando como um serviço em nuvem no formato SaaS. A empresa oferece uma plataforma de monitoramento contínuo, além de APIs e SDKs que permitem integrar suas soluções diretamente aos sistemas dos clientes, agregando valor através de segurança digital especializada.
    
 
-6. **Padrões e tendências no mercado:**
+    2.5. **Padrões e tendências no mercado:**
      * Público educacional (professores e estudantes):
         * Interface simples e acessível: design limpo, intuitivo e responsivo.
         * Acessibilidade: recursos como legendas automáticas.
