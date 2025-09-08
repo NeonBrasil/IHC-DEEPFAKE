@@ -157,6 +157,18 @@ profundo, portanto, a usabilidade deve ser simples e direta.
 **Referências:**
 * https://www.coursera.org/
 * https://sensity.ai/deepfake-detection/
+
+
+# **Entrega 3 (data) \[em andamento]**
+
+**1\) Personas**   
+**\[1 solução completa por pessoa da equipe \- identificar o autor\]**
+
+**2\) Mapa de Empatia \[1 por equipe\]**
+
+**3\) Contexto de Uso \[1 por equipe\]**
+
+**4\) Jornada do Usuário \[1 por equipe\]**
 * https://news.ycombinator.com/
 * https://suggest-design.webflow.io/case-study/coursera-notes-feature
 * https://br.bitdegree.org/plataformas-de-ensino-online/analise-coursera
