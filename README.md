@@ -170,6 +170,163 @@ profundo, portanto, a usabilidade deve ser simples e direta.
 
 **1\) Personas**   
 **\[1 solução completa por pessoa da equipe \- identificar o autor\]**
+## Personas Primárias:
+
+### Rafael Oliveira - Autor Cayque
+
+Idade: 21 anos
+
+Estado civil: Solteiro
+
+Emprego: Estudante de jornalismo
+
+Salário: Bolsa de estágio (~R$1.200)
+
+Gosta de: Tecnologia, redes sociais, podcasts investigativos
+
+Medo: Cair em fake news e perder credibilidade como futuro jornalista
+
+Sonho: Trabalhar em uma grande redação investigativa
+
+Frustração: Não entende muito sobre deepfakes e nem como detectar um
+
+Lazer: Assistir documentários e jogar online
+
+Aparelhos e redes: Smartphone Android, notebook, usa Twitter/X, Instagram e YouTube
+
+Educação: Ensino superior em andamento
+
+Como o projeto ajuda: Oferece conteúdo educativo sobre deepfakes, exemplos reais e ferramentas de análise visual simples para estudantes.
+
+
+### Larissa Alves - Autor Yuri
+
+Idade: 23 anos
+
+Estado civil: Casada
+
+Emprego: Influencer digital
+
+Salário: ~R$7.800
+
+Gosta de: Redes sociais, fazer vídeos e eventos
+
+Medo: Ser vítima de um deepfake
+
+Sonho: Conseguir crescer mais no mundo digital
+
+Frustração: Medo de ter um deepfake criado seu para degradação
+
+Lazer: Fazer lives
+
+Aparelhos e redes: Smartphone iphone, macbook, computador gamer, console, usa Twitter/X, Instagram, facebook, twitch e YouTube
+
+Educação: Ensino superior
+
+Como o projeto ajuda: Oferece conteúdo educativo sobre deepfakes, como se proteger e ferramentas de análise visual simples para estudantes.
+
+## Personas Secundárias:
+
+### Ana Paula Mendes - Autor Cayque
+
+Idade: 35 anos
+
+Estado civil: Casada
+
+Emprego: Professora de ética
+
+Salário: R$5.000
+
+Gosta de: Debates acadêmicos, livros sobre mídia e sociedade
+
+Medo: Que seus alunos sejam manipulados por desinformação digital
+
+Sonho: Criar um curso sobre ética digital
+
+Frustração: Falta de material didático atualizado sobre IA e manipulação de mídia
+
+Lazer: Caminhadas, leitura e cafés culturais
+
+Aparelhos e redes: Notebook, projetor, usa LinkedIn, YouTube e Moodle
+
+Educação: Mestrado em comunicação
+
+Como o projeto ajuda: Serve como recurso complementar para aulas, com conteúdo acessível e confiável sobre deepfakes.
+
+### Gabriel Souza - Autor Arthur
+
+Idade: 16
+
+Estado civil: Solteiro
+
+Emprego: Desempregado
+
+Salário: Não ganha
+
+Gosta de: Jogar videogames, redes sociais e estudar
+
+Medo: Que ele ou seus pais caiam em fake news
+
+Sonho: Ser um desenvolvedor de software
+
+Frustração: Falta de conteúdo simples explicando deepfakes
+
+Lazer: Jogar videogames
+
+Aparelhos e redes: Notebook, Console, YouTube e Instagram
+
+Educação: Ensino Médio
+
+Como o projeto ajuda: Serve como apoio para aprender sobre deepfakes.
+
+## Persona Negativa:
+### Jorge Matheus - Autor Cayque
+
+Idade: 40 anos
+
+Estado civil: Casado
+
+Emprego: Especialista em detecção de conteúdos falsos
+
+Salário: R$9.000
+
+Gosta de: Softwares avançados, computação gráfica
+
+Motivo da exclusão: Busca ferramentas técnicas e avançadas para detecção da manipulação de vídeo, não está interessado em estudos sobre evolução ou conscientização.
+
+Aparelhos e redes: PC com hardware de ponta
+
+Educação: Pós-graduação em audiovisual
+
+Por que não é persona: A plataforma não oferece recursos técnicos para o nível que ele busca.
+
+## Persona extrema:
+### Larissa dos Santos - Autor Cayque
+
+Idade: 67 anos
+
+Estado civil: Viúva
+
+Emprego: Aposentada, ex-professora de história
+
+Salário: Aposentadoria (~R$2.500)
+
+Gosta de: História, política, vídeos antigos
+
+Medo: Que a história seja reescrita por manipulações digitais
+
+Sonho: Criar um blog sobre verdade histórica
+
+Frustração: Dificuldade em entender novas tecnologias
+
+Lazer: Ler jornais, assistir vídeos históricos
+
+Aparelhos e redes: Tablet simples, usa Facebook e WhatsApp
+
+Educação: Licenciatura em História
+
+Como sua plataforma ajuda: Pode oferecer explicações simples e visuais sobre como deepfakes podem afetar a percepção histórica e política.
+
 
 **2\) Mapa de Empatia \[1 por equipe\]**
 
