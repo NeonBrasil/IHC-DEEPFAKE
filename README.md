@@ -253,6 +253,8 @@ Educação: Mestrado em comunicação
 
 Como o projeto ajuda: Serve como recurso complementar para aulas, com conteúdo acessível e confiável sobre deepfakes.
 
+
+
 ### Gabriel Souza - Autor Arthur
 
 Idade: 16
@@ -329,6 +331,262 @@ Como sua plataforma ajuda: Pode oferecer explicações simples e visuais sobre c
 
 
 **2\) Mapa de Empatia \[1 por equipe\]**
+
+## Rafael Oliveira (Persona Primária)
+
+### O que fala e faz:
+
+Comenta sobre fake news com colegas de faculdade
+
+Compartilha podcasts investigativos e notícias nas redes sociais
+
+Estuda jornalismo e busca fontes confiáveis para seus trabalhos
+
+### O que vê:
+
+Conteúdos sobre política, mídia e tecnologia no YouTube
+
+Postagens sobre manipulação digital no Twitter/X
+
+Notícias em tempo real e debates sobre desinformação
+
+### O que ouve:
+
+Professores falando sobre ética jornalística
+
+Podcasts sobre investigações e escândalos digitais
+
+Amigos comentando sobre vídeos suspeitos e deepfakes
+
+### O que pensa e sente:
+
+Preocupado com sua credibilidade como futuro jornalista
+
+Quer entender como identificar e combater fake news
+
+Se sente inseguro por não dominar o tema dos deepfakes
+
+### Dores (frustrações):
+
+Não entende como os deepfakes funcionam
+
+Falta de ferramentas acessíveis para análise de conteúdo digital
+
+Medo de publicar algo falso e prejudicar sua reputação
+
+### Ganhos (desejos):
+
+Trabalhar em uma redação investigativa
+
+Aprender a identificar manipulações digitais com segurança
+
+Ter acesso a uma plataforma educativa com exemplos reais e ferramentas visuais
+
+## Larissa Alves (Persona Primária)
+
+### O que fala e faz:
+
+Produz vídeos e conteúdos para redes sociais
+
+Participa de eventos e faz lives com frequência
+
+Compartilha dicas de lifestyle e tendências digitais
+
+### O que vê:
+
+Conteúdos sobre segurança digital e reputação online
+
+Notícias sobre influenciadores afetados por deepfakes
+
+Ferramentas de proteção de imagem e identidade
+
+### O que ouve:
+
+Seguidores comentando sobre vídeos suspeitos
+
+Outros influenciadores alertando sobre riscos de manipulação digital
+
+Equipe de marketing falando sobre imagem pública e segurança
+
+### O que pensa e sente:
+
+Preocupada com sua reputação e imagem online
+
+Tem medo de ser vítima de um deepfake que prejudique sua carreira
+
+Quer se proteger e entender como essas tecnologias funcionam
+
+### Dores (frustrações):
+
+Medo constante de ter sua imagem usada indevidamente
+
+Falta de conhecimento técnico sobre como se proteger
+
+Ansiedade sobre o impacto de um possível deepfake
+
+### Ganhos (desejos):
+
+Crescer no mundo digital com segurança
+
+Aprender a identificar e denunciar deepfakes
+
+Ter acesso a ferramentas educativas e práticas de proteção
+
+***
+
+## Gabriel Souza (Persona Secundária)
+
+### O que fala e faz:
+
+Compartilha vídeos e memes nas redes sociais
+
+Joga videogames online com amigos
+
+Estuda programação por conta própria
+
+### O que vê:
+
+Conteúdos sobre tecnologia e jogos no YouTube
+
+Notícias e postagens sobre fake news no Instagram
+
+Influenciadores falando sobre IA e manipulação digital
+
+### O que ouve:
+
+Amigos comentando sobre vídeos falsos e deepfakes
+
+Pais preocupados com notícias falsas
+
+Professores falando sobre segurança digital
+
+### O que pensa e sente:
+
+Preocupado com a desinformação que afeta ele e sua família
+
+Quer aprender mais sobre como identificar conteúdos manipulados
+
+Se sente inseguro por não entender bem como deepfakes funcionam
+
+### Dores (frustrações):
+
+Falta de conteúdo simples e acessível sobre deepfakes
+
+Medo de cair em fake news
+
+Dificuldade em encontrar fontes confiáveis
+
+### Ganhos (desejos):
+
+Ser desenvolvedor de software
+
+Aprender a identificar manipulações digitais
+
+Ter acesso a uma plataforma educativa e fácil de usar
+
+## Ana Paula Mendes (Persona Secundária)
+
+### O que fala e faz:
+
+Discute ética digital com alunos em sala de aula
+
+Compartilha artigos acadêmicos e vídeos educativos
+
+Participa de eventos e grupos de professores sobre tecnologia e educação
+
+### O que vê:
+
+Notícias sobre IA e manipulação de mídia
+
+Plataformas educacionais com foco em comunicação
+
+Debates sobre fake news e desinformação
+
+### O que ouve:
+
+Alunos comentando sobre vídeos suspeitos nas redes
+
+Colegas professores discutindo como abordar o tema em sala
+
+Podcasts e vídeos sobre ética na era digital
+
+### O que pensa e sente:
+
+Preocupada com a vulnerabilidade dos alunos diante da desinformação
+
+Quer oferecer conteúdo atualizado e confiável
+
+Sente que o material disponível ainda não acompanha a evolução da tecnologia
+
+### Dores (frustrações):
+
+Falta de material didático atualizado sobre IA e deepfakes
+
+Dificuldade em encontrar recursos acessíveis para o ensino
+
+Preocupação com o impacto da manipulação digital na formação dos alunos
+
+### Ganhos (desejos):
+
+Criar um curso sobre ética digital
+
+Ter acesso a uma plataforma confiável e educativa sobre deepfakes
+
+Usar o conteúdo como apoio direto nas aulas
+
+***
+
+## Jorge Matheus (Persona Negativa)
+
+### O que fala e faz:
+
+Participa de fóruns técnicos sobre detecção de manipulação de vídeo
+
+Trabalha com softwares avançados para análise forense digital
+
+Produz relatórios técnicos e ministra treinamentos sobre segurança audiovisual
+
+### O que vê:
+
+Tutoriais complexos sobre IA aplicada à detecção de deepfakes
+
+Ferramentas profissionais com alto nível de controle técnico
+
+Artigos científicos e benchmarks de precisão em detecção
+
+### O que ouve:
+
+Colegas especialistas discutindo algoritmos e modelos de detecção
+
+Comunidades técnicas falando sobre limitações de ferramentas populares
+
+Podcasts e webinars sobre segurança digital avançada
+
+### O que pensa e sente:
+
+Acredita que plataformas educativas são básicas demais para seu nível
+
+Quer soluções técnicas e precisas, não explicações conceituais
+
+Sente que seu tempo é melhor investido em ferramentas profissionais
+
+### Dores (frustrações):
+
+Plataformas que não oferecem controle técnico ou recursos avançados
+
+Interfaces simplificadas demais para seu nível de conhecimento
+
+Falta de compatibilidade com softwares profissionais
+
+### Ganhos (desejos):
+
+Ferramentas de detecção com IA de ponta
+
+Controle total sobre análise de vídeo e imagem
+
+Produção de conteúdo técnico com alto grau de precisão
+
+
 
 **3\) Contexto de Uso \[1 por equipe\]**
 
