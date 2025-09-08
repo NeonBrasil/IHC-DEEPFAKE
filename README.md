@@ -166,7 +166,7 @@ profundo, portanto, a usabilidade deve ser simples e direta.
 * https://www.enacton.com/blog/coursera-business-model
 
 
-# **Entrega 3 (data) \[em andamento]**
+# **Entrega 3 (08/09) \[Concluído]**
 
 **1\) Personas**   
 **\[1 solução completa por pessoa da equipe \- identificar o autor\]**
@@ -590,7 +590,93 @@ Produção de conteúdo técnico com alto grau de precisão
 
 **3\) Contexto de Uso \[1 por equipe\]**
 
+### Ambiente Físico
+A plataforma será utilizada em ambientes variados, como:
+
+Residências: usuários acessam pelo celular, notebook ou computador pessoal, geralmente em momentos de lazer ou estudo individual.
+
+Salas de aula: professores usam projetores e notebooks para apresentar o conteúdo em grupo, como apoio didático.
+
+Bibliotecas e laboratórios de informática: estudantes acessam em horários de estudo, com foco em pesquisa e aprendizado.
+
+Ambientes de criação de conteúdo: influenciadores e criadores acessam em seus estúdios ou home offices, buscando proteção e conhecimento.
+
+Esses ambientes são geralmente tranquilos e informais, com acesso à internet e dispositivos digitais.
+
+### Ambiente Social
+
+Os usuários estão inseridos em contextos sociais onde:
+
+A desinformação digital é uma preocupação crescente, especialmente entre jovens, educadores e criadores de conteúdo.
+
+Há discussões constantes sobre ética, IA e manipulação de mídia, tanto em ambientes acadêmicos quanto nas redes sociais.
+
+Professores buscam materiais atualizados para ensinar sobre segurança digital.
+
+Estudantes e influenciadores querem proteger sua imagem e entender os riscos da manipulação digital.
+
+A plataforma se insere como uma ferramenta de conscientização, promovendo o debate e o aprendizado sobre o tema.
+
+### Comportamento dos Usuários
+
+Os usuários da plataforma:
+
+
+Exploram conteúdos visuais e interativos, como vídeos explicativos, exemplos de deepfakes e testes práticos.
+
+Buscam simplicidade e clareza, pois muitos tem pouco ou nenhum conhecimento técnico em deepfakes.
+
+Interagem com a plataforma de forma autônoma, em momentos de curiosidade, estudo ou necessidade de proteção.
+
+Valorizam a confiabilidade das informações, especialmente professores e estudantes.
+
+Compartilham o conteúdo com colegas, alunos ou seguidores, ampliando o alcance da conscientização.
+
 **4\) Jornada do Usuário \[1 por equipe\]**
+
+
+### Jornada do Usuário (Geral)
+
+### 1. Descoberta
+
+O usuário vê uma notícia ou post nas redes sociais sobre deepfakes.
+
+Fica curioso ou preocupado com o tema.
+
+### 2. Busca por Informação
+
+Pesquisa no Google ou nas redes sociais para entender melhor o que são deepfakes.
+
+Encontra a plataforma como uma fonte confiável e acessível.
+
+
+### 3. Exploração da Plataforma
+
+Acessa o site ou app.
+
+Lê os conteúdos explicativos sobre o que são deepfakes e como funcionam.
+
+
+### 4. Interação com o Detector
+
+Testa a ferramenta de detecção simples.
+
+Analisa uma imagem suspeita.
+
+Recebe um resultado claro e compreensível.
+
+### 5. Aprendizado e Compartilhamento
+
+Entende como identificar deepfakes.
+
+Se sente mais seguro e consciente.
+
+Compartilha o conhecimento com amigos, familiares ou colegas.
+
+### Sentimentos ao longo da jornada:
+
+Curiosidade → Preocupação → Engajamento → Confiança → Satisfação
+
 
 
 # **Entrega 4  (data) \[em andamento/concluído\]**
