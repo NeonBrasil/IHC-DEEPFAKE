@@ -157,6 +157,13 @@ profundo, portanto, a usabilidade deve ser simples e direta.
 **Referências:**
 * https://www.coursera.org/
 * https://sensity.ai/deepfake-detection/
+* https://news.ycombinator.com/
+* https://suggest-design.webflow.io/case-study/coursera-notes-feature
+* https://br.bitdegree.org/plataformas-de-ensino-online/analise-coursera
+* https://socradar.io/top-10-ai-deepfake-detection-tools-2025/
+* https://medium.com/%40danelyons/hacker-news-ux-review-july-2018-a06910bff8f1
+* https://www.uxbeginner.com/hacker-news-uxui-redesign-process/
+* https://www.enacton.com/blog/coursera-business-model
 
 
 # **Entrega 3 (data) \[em andamento]**
@@ -169,10 +176,4 @@ profundo, portanto, a usabilidade deve ser simples e direta.
 **3\) Contexto de Uso \[1 por equipe\]**
 
 **4\) Jornada do Usuário \[1 por equipe\]**
-* https://news.ycombinator.com/
-* https://suggest-design.webflow.io/case-study/coursera-notes-feature
-* https://br.bitdegree.org/plataformas-de-ensino-online/analise-coursera
-* https://socradar.io/top-10-ai-deepfake-detection-tools-2025/
-* https://medium.com/%40danelyons/hacker-news-ux-review-july-2018-a06910bff8f1
-* https://www.uxbeginner.com/hacker-news-uxui-redesign-process/
-* https://www.enacton.com/blog/coursera-business-model
+
