@@ -681,15 +681,18 @@ Curiosidade → Preocupação → Engajamento → Confiança → Satisfação
 
 # **Entrega 4  (data) \[em andamento/concluído\]**
 
-**\[1 solução completa por pessoa da equipe\]**
+1) **Cenário de Análise/Problema:**
+   * **Envio de imagem para análise de possível deepfake:** <br>
+     Atores: Gabriel Souza (Entusiasta de tecnologia) <br> <br>
+     Gabriel Souza recebeu, em um grupo de mensagens, uma imagem que supostamente mostrava um político local envolvido em um crime ocorrido recentemente em sua cidade. Desconfiado da veracidade da notícia, decidiu verificar a autenticidade da foto antes de repassá-la. <br>
+	 Durante a busca por soluções, encontrou um site especializado na análise de deepfakes e resolveu utilizá-lo. Para prosseguir com o envio da imagem, o sistema exigia a criação de uma conta. Assim, Gabriel preencheu um formulário com seus dados pessoais, incluindo nome, e-mail e senha. <br>
+	 Cadastro concluído, ele enviou a foto para análise. O sistema processou o conteúdo, mas apresentou apenas um resultado binário (Verdadeira ou Falsa) sem disponibilizar detalhes técnicos, porcentagem de probabilidade ou indicadores visuais que pudessem comprovar a confiabilidade da análise. Isso manteve em aberto suas dúvidas sobre a autenticidade da imagem. <br>
+	 Alguns dias depois, Gabriel começou a receber inúmeros spams em seu e-mail, a maioria oferecendo serviços de detecção de deepfakes, levantando suspeitas sobre o uso e o compartilhamento indevido de seus dados pessoais. <br>
+     
 
-**Dica: Cada membro de equipe deve pensar em cenários existentes na atualidade (que causam problemas para os usuários) e que a interface prevista ajudará a resolver o problema. Cenário de Análise/Problema é uma história triste. Não descreve a solução. Descreve somente o problema.**
+3) ## **Questões de Refinamento**
 
-1) **Cenário de Análise/Problema**
-
-2) ## **Questões de Refinamento**
-
-3) **Refinamento do Cenário Análise/Problema**
+4) **Refinamento do Cenário Análise/Problema**
 
 # 
 
