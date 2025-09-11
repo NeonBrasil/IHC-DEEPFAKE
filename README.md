@@ -682,13 +682,18 @@ Curiosidade → Preocupação → Engajamento → Confiança → Satisfação
 # **Entrega 4  (data) \[em andamento/concluído\]**
 
 1) **Cenário de Análise/Problema:**
-   * **Envio de imagem para análise de possível deepfake:** <br>
+	* **Envio de imagem para análise de possível deepfake:** <br>
      Atores: Gabriel Souza (Entusiasta de tecnologia) <br> <br>
      Gabriel Souza recebeu, em um grupo de mensagens, uma imagem que supostamente mostrava um político local envolvido em um crime ocorrido recentemente em sua cidade. Desconfiado da veracidade da notícia, decidiu verificar a autenticidade da foto antes de repassá-la. <br>
 	 Durante a busca por soluções, encontrou um site especializado na análise de deepfakes e resolveu utilizá-lo. Para prosseguir com o envio da imagem, o sistema exigia a criação de uma conta. Assim, Gabriel preencheu um formulário com seus dados pessoais, incluindo nome, e-mail e senha. <br>
 	 Cadastro concluído, ele enviou a foto para análise. O sistema processou o conteúdo, mas apresentou apenas um resultado binário (Verdadeira ou Falsa) sem disponibilizar detalhes técnicos, porcentagem de probabilidade ou indicadores visuais que pudessem comprovar a confiabilidade da análise. Isso manteve em aberto suas dúvidas sobre a autenticidade da imagem. <br>
 	 Alguns dias depois, Gabriel começou a receber inúmeros spams em seu e-mail, a maioria oferecendo serviços de detecção de deepfakes, levantando suspeitas sobre o uso e o compartilhamento indevido de seus dados pessoais. <br>
-     
+
+   * **Credibilidade em risco por falta de acesso a ferramentas acessíveis:** <br>
+  Atores: Rafael Oliveira (Estagiário em jornalismo) <br> <br>
+  Rafael Oliveira, jornalista responsável por apurar acontecimentos locais para publicação em um portal de notícias, encontra uma imagem em rede social que pode estar relacionada a um evento relevante em sua região. Preocupado com a veracidade da informação, ele decide investigar se a imagem pode ser um deepfake. <br>
+  Durante a busca por ferramentas de detecção, Rafael acessa um site de referência na área, mas percebe que o acesso completo ao serviço exige assinatura paga. A interface do site não oferece alternativas de teste gratuito ou acesso simplificado, dificultando sua tomada de decisão. Ao solicitar o investimento ao seu chefe, o pedido é negado devido ao custo da assinatura. <br>
+   Sem recursos acessíveis para validar a imagem de forma confiável, Rafael acaba publicando a notícia sem a verificação, o que levanta riscos de credibilidade para o portal. <br>
 
 3) ## **Questões de Refinamento**
 
