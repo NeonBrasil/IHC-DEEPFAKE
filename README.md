@@ -695,6 +695,12 @@ Curiosidade → Preocupação → Engajamento → Confiança → Satisfação
   Durante a busca por ferramentas de detecção, Rafael acessa um site de referência na área, mas percebe que o acesso completo ao serviço exige assinatura paga. A interface do site não oferece alternativas de teste gratuito ou acesso simplificado, dificultando sua tomada de decisão. Ao solicitar o investimento ao seu chefe, o pedido é negado devido ao custo da assinatura. <br>
    Sem recursos acessíveis para validar a imagem de forma confiável, Rafael acaba publicando a notícia sem a verificação, o que levanta riscos de credibilidade para o portal. <br>
 
+   * **Complexidade na utilização de ferramentas para detectar deepfakes:** <br>
+   Atores: Larissa Alves (Influencer Digital) <br> <br>
+   Larissa Alves, influencer digital, se deparou com um deepfake de sua imagem circulando nas redes. Para comprovar que não se tratava de um fato real, buscou na internet ferramentas que pudessem ajudá-la nessa verificação. <br>
+   Durante a pesquisa, encontrou no GitHub repositórios de código aberto com softwares de detecção. No entanto, não possuía o conhecimento técnico necessário para utilizá-los. As instruções indicavam a instalação do Python (a partir da versão 3.13), o uso do Visual Studio Code e a execução de scripts específicos. <br>
+   Determinada, Larissa decidiu se aprofundar em programação e, após uma semana de estudo, conseguiu enviar sua foto ao detector, confirmando a falsidade do material que já havia se espalhado por diversas redes sociais. <br>
+
 3) ## **Questões de Refinamento**
 
 4) **Refinamento do Cenário Análise/Problema**
