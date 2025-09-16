@@ -701,10 +701,30 @@ Curiosidade → Preocupação → Engajamento → Confiança → Satisfação
    Durante a pesquisa, encontrou no GitHub repositórios de código aberto com softwares de detecção. No entanto, não possuía o conhecimento técnico necessário para utilizá-los. As instruções indicavam a instalação do Python (a partir da versão 3.13), o uso do Visual Studio Code e a execução de scripts específicos. <br>
    Determinada, Larissa decidiu se aprofundar em programação e, após uma semana de estudo, conseguiu enviar sua foto ao detector, confirmando a falsidade do material que já havia se espalhado por diversas redes sociais. <br>
 
-3) ## **Questões de Refinamento**
+2) **Questões de Refinamento:**
+   * **Envio de imagem para análise de possível deepfake:** <br>
+     **1.** Por que o autor deseja verificar se a imagem recebida é um deepfake? <br>
+     **2.** De que forma o autor pode realizar a verificação da imagem enviada? <br>
+     **3.** Quais equipamentos ou recursos são necessários para confirmar a veracidade da foto? <br>
+     **4.** Que conhecimentos prévios o autor possui para compreender meios de analisar a imagem? <br>
+     **5.** Como a imagem deepfake chegou até o autor? <br>
+     **6.** Quais características pessoais do autor o levam a se interessar pelo tema de deepfakes? <br>
+     **7.** De que maneira o autor gostaria que a tarefa de verificação fosse realizada? <br>
+     **8.** O autor já conhece métodos de checagem de imagens ou é a primeira vez que busca esse tipo de solução? <br>
+     **9.** Quais condições ou motivações levaram o autor a procurar formas de verificar a veracidade da foto recebida? <br>
+     **10.** Que informações o sistema exigiu no formulário de cadastro para que ele pudesse acessar a ferramenta? <br>
+     **11.** Quais dificuldades o autor encontrou ao tentar verificar a imagem após o envio? <br>
+     **12.** Após o envio dos dados pessoais, como o autor percebeu que o cadastro havia sido concluído com sucesso? <br>
+     **13.** Quando enviou a foto para análise, o autor ficou satisfeito com o resultado? <br>
+     **14.** Qual resultado o autor esperava obter ao final do processo de análise da imagem? <br>
 
-4) **Refinamento do Cenário Análise/Problema**
-
+3) **Refinamento do Cenário Análise/Problema**
+   * **Envio de imagem para análise de possível deepfake:** <br>
+    Gabriel Souza é um jovem que compartilha vídeos e memes nas redes sociais, estuda programação por conta própria e acompanha conteúdos sobre tecnologia e manipulação digital no YouTube e Instagram [6]. Sua motivação para se aprofundar no tema vem de preocupações pessoais: amigos e familiares frequentemente comentam sobre fake news, e ele deseja se sentir mais preparado para identificar conteúdos manipulados [9]. Apesar desse interesse, ainda não possui domínio técnico aprofundado sobre como deepfakes funcionam, o que lhe gera insegurança [4].
+    Certo dia, Gabriel recebeu em um grupo de mensagens uma imagem que supostamente mostrava um político local envolvido em um crime ocorrido recentemente em sua cidade [5]. Desconfiado da veracidade da notícia, decidiu verificar a autenticidade da foto antes de repassá-la [1,9].
+    Durante a busca por soluções, encontrou um site especializado na análise de deepfakes e resolveu utilizá-lo [2,8]. Para prosseguir com o envio da imagem, o sistema exigia a criação de uma conta. Assim, Gabriel preencheu um formulário com seus dados pessoais, incluindo nome, e-mail e senha [10].
+    Cadastro concluído, o sistema confirmou a criação da conta exibindo uma mensagem de sucesso [12]. Em seguida, ele enviou a foto para análise [2]. O sistema processou o conteúdo, mas apresentou apenas um resultado binário (Verdadeira ou Falsa), sem disponibilizar detalhes técnicos, porcentagem de probabilidade ou indicadores visuais que pudessem comprovar a confiabilidade da análise [7,11,13,14]. Isso manteve em aberto suas dúvidas sobre a autenticidade da imagem [13].
+    Alguns dias depois, Gabriel começou a receber inúmeros spams em seu e-mail, a maioria oferecendo serviços de detecção de deepfakes, levantando suspeitas sobre o uso e o compartilhamento indevido de seus dados pessoais. Para realizar todo esse processo, utilizou apenas seu computador e conexão com a internet, não necessitando de equipamentos adicionais além de um navegador [3].
 # 
 
 # **Entrega 5  (data) \[em andamento/concluído\]**
