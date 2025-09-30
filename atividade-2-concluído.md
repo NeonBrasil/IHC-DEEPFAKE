@@ -1,4 +1,4 @@
-# **Entrega 2 
+# Entrega 2 
 
 1. **Público Alvo:**
 * Público educacional: professores, estudantes.
