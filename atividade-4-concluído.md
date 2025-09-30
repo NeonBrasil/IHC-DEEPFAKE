@@ -1,4 +1,4 @@
-# Entrega 4 (data) [Concluído]
+# Entrega 4
 
 ## 1) Cenário de Análise/Problema
 
