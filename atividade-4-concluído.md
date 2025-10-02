@@ -49,20 +49,20 @@ Determinada, Larissa decidiu se aprofundar em programação e, após uma semana 
 
 **Criador:** Arthur
 
-1. Por que o autor deseja verificar se a imagem recebida é um deepfake?
-2. De que forma o autor pode realizar a verificação da imagem enviada?
-3. Quais equipamentos ou recursos são necessários para confirmar a veracidade da foto?
-4. Que conhecimentos prévios o autor possui para compreender meios de analisar a imagem?
-5. Como a imagem deepfake chegou até o autor?
-6. Quais características pessoais do autor o levam a se interessar pelo tema de deepfakes?
-7. De que maneira o autor gostaria que a tarefa de verificação fosse realizada?
-8. O autor já conhece métodos de checagem de imagens ou é a primeira vez que busca esse tipo de solução?
-9. Quais condições ou motivações levaram o autor a procurar formas de verificar a veracidade da foto recebida?
-10. Que informações o sistema exigiu no formulário de cadastro para que ele pudesse acessar a ferramenta?
-11. Quais dificuldades o autor encontrou ao tentar verificar a imagem após o envio?
-12. Após o envio dos dados pessoais, como o autor percebeu que o cadastro havia sido concluído com sucesso?
-13. Quando enviou a foto para análise, o autor ficou satisfeito com o resultado?
-14. Qual resultado o autor esperava obter ao final do processo de análise da imagem?
+1. [objetivo] Por que o autor deseja verificar se a imagem recebida é um deepfake?
+2. [planejamento] De que forma o autor pode realizar a verificação da imagem enviada?
+3. [ambiente] Quais equipamentos ou recursos são necessários para confirmar a veracidade da foto?
+4. [ambiente] Que conhecimentos prévios o autor possui para compreender meios de analisar a imagem?
+5. [ambiente] Como a imagem deepfake chegou até o autor?
+6. [ambiente] Quais características pessoais do autor o levam a se interessar pelo tema de deepfakes?
+7. [planejamento] De que maneira o autor gostaria que a tarefa de verificação fosse realizada?
+8. [ambiente] O autor já conhece métodos de checagem de imagens ou é a primeira vez que busca esse tipo de solução?
+9. [] Quais condições ou motivações levaram o autor a procurar formas de verificar a veracidade da foto recebida?
+10. [] Que informações o sistema exigiu no formulário de cadastro para que ele pudesse acessar a ferramenta?
+11. [] Quais dificuldades o autor encontrou ao tentar verificar a imagem após o envio?
+12. [] Após o envio dos dados pessoais, como o autor percebeu que o cadastro havia sido concluído com sucesso?
+13. [] Quando enviou a foto para análise, o autor ficou satisfeito com o resultado?
+14. [planejamento] Qual resultado o autor esperava obter ao final do processo de análise da imagem?
 
 ---
 
