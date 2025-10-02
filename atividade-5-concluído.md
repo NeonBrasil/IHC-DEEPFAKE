@@ -14,52 +14,8 @@ Para esta entrega, modelamos três funcionalidades centrais da plataforma de det
 Esta funcionalidade permite que usuários façam upload de um arquivo de imagem para verificar se ela contém deepfakes. O sistema processa a imagem utilizando algoritmos de IA (EfficientNet-B0) e retorna um resultado com indicadores de confiabilidade, atendendo especialmente à persona Rafael Oliveira (jornalista) que precisa verificar conteúdo antes da publicação.
 
 ### Diagrama HTA:
+![Diagrama sem nome (2)](https://github.com/user-attachments/assets/740f99a1-2346-4c4d-82d3-843cd0e101a5)
 
-```
-0. Analisar imagem para detecção de deepfake
-|
-├── 1. Preparar arquivo de imagem
-│   ├── 1.1. Localizar arquivo no dispositivo
-│   ├── 1.2. Verificar formato compatível (JPG, PNG, WEBP)
-│   └── 1.3. Confirmar tamanho do arquivo (máx. 10MB)
-│
-├── 2. Acessar sistema de upload
-│   ├── 2.1. Navegar para seção "Detector"
-│   ├── 2.2. Clicar em "Analisar Imagem"
-│   └── 2.3. Aguardar carregamento da interface
-│
-├── 3. Realizar upload do arquivo
-│   ├── 3.1. Clicar em "Selecionar arquivo" OU arrastar arquivo
-│   ├── 3.2. Navegar e selecionar arquivo desejado
-│   ├── 3.3. Confirmar seleção
-│   └── 3.4. Visualizar prévia da imagem selecionada
-│
-├── 4. Configurar análise
-│   ├── 4.1. Escolher nível de análise (Rápida/Detalhada)
-│   ├── 4.2. Marcar opções adicionais (se necessário)
-│   └── 4.3. Revisar configurações
-│
-├── 5. Executar análise
-│   ├── 5.1. Clicar em "Iniciar Análise"
-│   ├── 5.2. Acompanhar barra de progresso
-│   └── 5.3. Aguardar processamento completo
-│
-└── 6. Visualizar e interpretar resultados
-    ├── 6.1. Analisar pontuação de autenticidade (0-100%)
-    ├── 6.2. Examinar indicadores visuais na imagem
-    ├── 6.3. Ler explicação detalhada dos resultados
-    ├── 6.4. Baixar relatório (opcional)
-    └── 6.5. Compartilhar ou salvar análise
-```
-
-### Plano de Execução:
-- **Plano 0:** Executar 1-2-3-4-5-6 em sequência
-- **Plano 1:** Executar 1.1-1.2-1.3 em qualquer ordem
-- **Plano 2:** Executar 2.1-2.2-2.3 em sequência
-- **Plano 3:** Executar 3.1-3.2-3.3-3.4 em sequência OU 3.1(arrastar)-3.4
-- **Plano 4:** Executar 4.1-4.2-4.3 em sequência
-- **Plano 5:** Executar 5.1-5.2-5.3 em sequência
-- **Plano 6:** Executar 6.1-6.2-6.3 obrigatoriamente, 6.4-6.5 opcionalmente
 
 ---
 
