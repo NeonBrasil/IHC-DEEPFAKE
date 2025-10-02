@@ -7,6 +7,8 @@
 
 #### Rafael Oliveira - Autor: Cayque
 
+![360_F_58014702_QGlsmOkqpmD56kIdCswPk9HuQwxG9JYP](https://github.com/user-attachments/assets/8a9c32a9-0d5a-4745-a40f-e402b8b69d2c)
+
 - **Idade:** 21 anos
 - **Estado civil:** Solteiro
 - **Emprego:** Estudante de jornalismo
@@ -21,6 +23,8 @@
 - **Como o projeto ajuda:** Oferece conteúdo educativo sobre deepfakes, exemplos reais e ferramentas de análise visual simples para estudantes.
 
 #### Larissa Alves - Autor: Yuri
+
+![portrait-beautiful-woman-engineer_23-2148826527](https://github.com/user-attachments/assets/69025299-abe3-4dad-b07c-936c602c8aef)
 
 - **Idade:** 23 anos
 - **Estado civil:** Casada
@@ -39,6 +43,8 @@
 
 #### Ana Paula Mendes - Autor: Cayque
 
+![1000_F_197280335_EnKA1A5tJKci6o1FB5fvtWpMxH7QBOwG](https://github.com/user-attachments/assets/26be0a89-71db-407b-9255-e11905659c65)
+
 - **Idade:** 35 anos
 - **Estado civil:** Casada
 - **Emprego:** Professora de ética
@@ -53,6 +59,8 @@
 - **Como o projeto ajuda:** Serve como recurso complementar para aulas, com conteúdo acessível e confiável sobre deepfakes.
 
 #### Gabriel Souza - Autor: Arthur
+
+![young-man-playing-with-video-game-controller-isolated-blue-wall-smiling-lot_1368-47073](https://github.com/user-attachments/assets/54dbca3c-7ea6-475f-aafc-41d9c83a822f)
 
 - **Idade:** 16 anos
 - **Estado civil:** Solteiro
@@ -71,6 +79,8 @@
 
 #### Jorge Matheus - Autor: Cayque
 
+![istockphoto-1373240842-612x612](https://github.com/user-attachments/assets/b0046d49-d264-4963-b838-a0e902247b95)
+
 - **Idade:** 40 anos
 - **Estado civil:** Casado
 - **Emprego:** Especialista em detecção de conteúdos falsos
@@ -84,6 +94,7 @@
 ### Persona Extrema
 
 #### Larissa dos Santos - Autor: Cayque
+![1000_F_34973826_92NiigRQhPgx4UPkESVNoRvunP270uOz](https://github.com/user-attachments/assets/ed9d8e70-226a-43f4-a520-fba1f236cc72)
 
 - **Idade:** 67 anos
 - **Estado civil:** Viúva
