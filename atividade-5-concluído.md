@@ -14,7 +14,31 @@ Para esta entrega, modelamos três funcionalidades centrais da plataforma de det
 Esta funcionalidade permite que usuários façam upload de um arquivo de imagem para verificar se ela contém deepfakes. O sistema processa a imagem utilizando algoritmos de IA (EfficientNet-B0) e retorna um resultado com indicadores de confiabilidade, atendendo especialmente à persona Rafael Oliveira (jornalista) que precisa verificar conteúdo antes da publicação.
 
 ### Diagrama HTA:
-![HTA](https://github.com/user-attachments/assets/f193a62f-0fd5-4376-b3d3-6ac2f60ff0ad)
+![HTA_VerificarIMG](https://github.com/user-attachments/assets/991fa6de-849f-45e7-827b-540bbf60bb77)
+
+| Objetivos/Operações | Problemas/Recomendações |
+|:--------------------|:------------------------|
+| 0. Verificar se a imagem é um deepfake 1>2>3>4>5 | **Input:** Relatório detalhado contendo a informação se a imagem enviada é ou não deepfake. <br> **Feedback:** relatório gerado, possibilitando a avaliação do resultado por parte do usuário. <br> **Plano:** Preparar arquivo de imagem e depois acessar sistema de upload e depois realizar upload do arquivo e depois executar análise e depois visualizar e interpretar resultado. <br> |
+| 1. Preparar arquivo de imagem 1>2+3 | Plano: Localizar arquivo no dispositivo e depois verificar formato compatível (JPG; PNG) e confirmar tamanho do arquivo (máx. 10MB)|
+| 1.1. Localizar arquivo no dispositivo | |
+| 1.2 Verificar formato compatível (JPG; PNG) | |
+| 1.3 Confirmar tamanho do arquivo (máx. 10MB) | |
+| 2. Acessar sistema de upload 1>2 | Plano: Navegar para seção "Detector" e depois clicar em "Analisar Imagem" |
+| 2.1. Navegar para seção "Detector" | |
+| 2.2. Clicar em "Analisar Imagem" | |
+| 3. Realizar upload do arquivo 1/2>3>4 | Plano: Clicar em "Selecionar arquivo" ou arrastar um arquivo e depois confirmar seleção e depois visualizar prévia da imagem selecionada |
+| 3.1 Clicar em "Selecionar arquivo" | |
+| 3.2. Arrastar um arquivo | |
+| 3.3. Confirmar seleção | |
+| 3.4. Visualizar prévia da imagem selecionada | Recomendação: Alerta sobre imagem carregada com sucesso |
+| 4. Executar análise 1>2+3 | Plano: Clicar em "Iniciar Análise" e depois acompanhar barra de progresso e aguardar processamento completo |
+| 4.1. Clicar em "Iniciar Análise" | |
+| 4.2. Acompanhar barra de progresso | |
+| 4.3. Aguardar processamento completo | |
+| 5. Visualizar e interpretar resultado 1+2+3 | Plano: Analisar pontuação de autenticidade (0% - 100%) e Examinar indicadores visuais da imagem e baixar relatório |
+| 5.1. Analisar pontuação de autenticidade (0% - 100%) | |
+| 5.2 Examinar indicadores visuais da imagem | |
+| 5.3. Baixar relatório | Ação: relatório disponível para download enquanto a página web estiver aberta. |
 
 ---
 
