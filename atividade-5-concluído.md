@@ -14,8 +14,7 @@ Para esta entrega, modelamos três funcionalidades centrais da plataforma de det
 Esta funcionalidade permite que usuários façam upload de um arquivo de imagem para verificar se ela contém deepfakes. O sistema processa a imagem utilizando algoritmos de IA (EfficientNet-B0) e retorna um resultado com indicadores de confiabilidade, atendendo especialmente à persona Rafael Oliveira (jornalista) que precisa verificar conteúdo antes da publicação.
 
 ### Diagrama HTA:
-![Diagrama sem nome (2)](https://github.com/user-attachments/assets/740f99a1-2346-4c4d-82d3-843cd0e101a5)
-
+![HTA](https://github.com/user-attachments/assets/f193a62f-0fd5-4376-b3d3-6ac2f60ff0ad)
 
 ---
 
