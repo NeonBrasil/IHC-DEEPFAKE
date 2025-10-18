@@ -1,21 +1,18 @@
 # **Entrega 5 - Análise de Tarefas (22/09)**
 
-**Análise de Tarefas**
+### **1) HTA (Hierarchical Task Analysis):**
+**Autor:** Cayque
 
-Para esta entrega, modelamos três funcionalidades centrais da plataforma de detecção de deepfakes, utilizando diferentes técnicas de análise de tarefas. Cada funcionalidade foi analisada por um membro da equipe, considerando as necessidades identificadas nas personas e cenários desenvolvidos anteriormente.
+**Funcionalidade:** <br>
+Upload e Análise de Imagem para Detecção de Deepfake.
 
----
+**Descrição da Funcionalidade:** <br>
+Esta funcionalidade permite que usuários façam upload de um arquivo de imagem para verificar se ela contém deepfakes. O sistema processa a imagem utilizando algoritmos de IA (EfficientNet-B0) e retorna um resultado com indicadores de confiabilidade.
 
-## **1) HTA (Hierarchical Task Analysis)**
-**Funcionalidade: Upload e Análise de Imagem para Detecção de Deepfake**
-**(Autor: Cayque)**
-
-### Descrição da Funcionalidade:
-Esta funcionalidade permite que usuários façam upload de um arquivo de imagem para verificar se ela contém deepfakes. O sistema processa a imagem utilizando algoritmos de IA (EfficientNet-B0) e retorna um resultado com indicadores de confiabilidade, atendendo especialmente à persona Rafael Oliveira (jornalista) que precisa verificar conteúdo antes da publicação.
-
-### Diagrama HTA:
+**Diagrama:**
 ![HTA_VerificarIMG](https://github.com/user-attachments/assets/991fa6de-849f-45e7-827b-540bbf60bb77)
 
+**Tabela:**
 | Objetivos/Operações | Problemas/Recomendações |
 |:--------------------|:------------------------|
 | 0. Verificar se a imagem é um deepfake 1>2>3>4>5 | **Input:** Relatório detalhado contendo a informação se a imagem enviada é ou não deepfake. <br> **Feedback:** relatório gerado, possibilitando a avaliação do resultado por parte do usuário. <br> **Plano:** Preparar arquivo de imagem e depois acessar sistema de upload e depois realizar upload do arquivo e depois executar análise e depois visualizar e interpretar resultado. <br> |
@@ -39,6 +36,25 @@ Esta funcionalidade permite que usuários façam upload de um arquivo de imagem 
 | 5.1. Analisar pontuação de autenticidade (0% - 100%) | |
 | 5.2 Examinar indicadores visuais da imagem | |
 | 5.3. Baixar relatório | Ação: relatório disponível para download enquanto a página web estiver aberta. |
+
+---
+
+### **1) HTA (Hierarchical Task Analysis):**
+**Autor:** Arthur
+
+**Funcionalidade:** <br>
+Compartilhar análises deepfakes
+
+**Descrição da Funcionalidade:** <br>
+Esta funcionalidade permite que usuários compartilhem resultados de análises de imagens (possivelmente deepfakes) através de diferentes canais de comunicação.
+
+**Diagrama:**
+![HTA_ARTHUR (1)](https://github.com/user-attachments/assets/d5900215-d986-4f27-9b94-33ec65915d1a)
+
+
+**Tabela:**
+| Objetivos/Operações | Problemas/Recomendações |
+|:--------------------|:------------------------|
 
 ---
 
