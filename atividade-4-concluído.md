@@ -57,11 +57,11 @@ Determinada, Larissa decidiu se aprofundar em programação e, após uma semana 
 6. [ambiente] Quais características pessoais do autor o levam a se interessar pelo tema de deepfakes?
 7. [planejamento] De que maneira o autor gostaria que a tarefa de verificação fosse realizada?
 8. [ambiente] O autor já conhece métodos de checagem de imagens ou é a primeira vez que busca esse tipo de solução?
-9. [] Quais condições ou motivações levaram o autor a procurar formas de verificar a veracidade da foto recebida?
-10. [] Que informações o sistema exigiu no formulário de cadastro para que ele pudesse acessar a ferramenta?
-11. [] Quais dificuldades o autor encontrou ao tentar verificar a imagem após o envio?
-12. [] Após o envio dos dados pessoais, como o autor percebeu que o cadastro havia sido concluído com sucesso?
-13. [] Quando enviou a foto para análise, o autor ficou satisfeito com o resultado?
+9. [objetivo] Quais condições ou motivações levaram o autor a procurar formas de verificar a veracidade da foto recebida?
+10. [ação] Quais informações o sistema exigiu no formulário de cadastro para que ele pudesse acessar a ferramenta?
+11. [ação] Quais dificuldades o autor encontrou ao tentar verificar a imagem após o envio?
+12. [ação] Após o envio dos dados pessoais, como o autor percebeu que o cadastro havia sido concluído com sucesso?
+13. [avaliação] Quando enviou a foto para análise, o autor ficou satisfeito com o resultado?
 14. [planejamento] Qual resultado o autor esperava obter ao final do processo de análise da imagem?
 
 ---
@@ -70,17 +70,17 @@ Determinada, Larissa decidiu se aprofundar em programação e, após uma semana 
 
 **Criador:** Cayque
 
-1. Por que o autor considera importante verificar a veracidade da imagem encontrada?
-2. Quais ações o autor realiza para tentar confirmar se a imagem é verdadeira ou um deepfake?
-3. O autor possui algum conhecimento prévio sobre deepfakes que o ajude nesse processo?
-4. Em que contexto ou situação o autor se encontra ao tentar realizar essa verificação?
-5. Quais recursos estão disponíveis para o autor utilizar na checagem da imagem?
-6. Que características pessoais ou profissionais podem contribuir para que o autor alcance seu objetivo?
-7. De que forma o autor percebe que a ferramenta encontrada exige pagamento para ser usada?
-8. Como ele identifica que não há opção de teste gratuito ou acesso simplificado na plataforma?
-9. Qual atitude o autor toma após constatar que a ferramenta é paga e inacessível?
-10. O que o autor esperava encontrar em uma ferramenta de detecção de deepfakes para sentir confiança no resultado?
-11. Quais consequências podem surgir da publicação da notícia sem a devida verificação da imagem?
+1. [objetivo] Por que o autor considera importante verificar a veracidade da imagem encontrada?
+2. [ação] Quais ações o autor realiza para tentar confirmar se a imagem é verdadeira ou um deepfake?
+3. [ambiente] O autor possui algum conhecimento prévio sobre deepfakes que o ajude nesse processo?
+4. [ambiente] Em que contexto ou situação o autor se encontra ao tentar realizar essa verificação?
+5. [ambiente] Quais recursos estão disponíveis para o autor utilizar na checagem da imagem?
+6. [ambiente] Que características pessoais ou profissionais podem contribuir para que o autor alcance seu objetivo?
+7. [ação] De que forma o autor percebe que a ferramenta encontrada exige pagamento para ser usada?
+8. [ação] Como ele identifica que não há opção de teste gratuito ou acesso simplificado na plataforma?
+9. [ação] Qual atitude o autor toma após constatar que a ferramenta é paga e inacessível?
+10. [planejamento] O que o autor esperava encontrar em uma ferramenta de detecção de deepfakes para sentir confiança no resultado?
+11. [avaliação] Quais consequências podem surgir da publicação da notícia sem a devida verificação da imagem?
 
 ---
 
@@ -88,23 +88,23 @@ Determinada, Larissa decidiu se aprofundar em programação e, após uma semana 
 
 **Criador:** Yuri
 
-1. Qual a principal ação que o autor deseja realizar ao usar a ferramenta?
-2. O autor precisa apenas confirmar se uma imagem é falsa ou também gerar provas para denúncia?
-3. Quais barreiras técnicas o autor encontra nas ferramentas atuais?
-4. O autor entende os termos técnicos utilizados nas plataformas de código aberto?
-5. O autor está sozinho ao usar a ferramenta ou conta com ajuda de terceiros?
-6. Em qual dispositivo o autor tentaria usar primeiro: smartphone ou notebook?
-7. Qual o ambiente emocional do autor ao usar a ferramenta?
-8. O autor busca apenas comprovar que a imagem é falsa ou também se proteger de futuros ataques?
-9. Quanto tempo o autor estaria disposto a gastar para conseguir o resultado?
-10. O que o autor espera ao enviar a imagem?
-11. O autor espera apenas um resultado técnico ou também orientações sobre como agir?
-12. Como o autor se sentiria ao conseguir a resposta de forma clara e rápida?
-13. A ferramenta deve apenas resolver o problema imediato ou também empoderar o autor para situações futuras?
-14. Quais ações Larissa realizou para tentar utilizar os repositórios de código aberto?
-15. Larissa conseguiu instalar as ferramentas necessárias, como Python e VS Code?
-16. Quanto tempo Larissa gastou nesse processo de instalação e testes?
-17. O esforço que Larissa fez foi suficiente para chegar ao resultado esperado ou gerou mais frustração?
+1. [objetivo] Qual a principal ação que o autor deseja realizar ao usar a ferramenta?
+2. [objetivo] O autor precisa apenas confirmar se uma imagem é falsa ou também gerar provas para denúncia?
+3. [ambiente] Quais barreiras técnicas o autor encontra nas ferramentas atuais?
+4. [ambiente] O autor entende os termos técnicos utilizados nas plataformas de código aberto?
+5. [ambiente] O autor está sozinho ao usar a ferramenta ou conta com ajuda de terceiros?
+6. [ambiente] Em qual dispositivo o autor tentaria usar primeiro: smartphone ou notebook?
+7. [ambiente] Qual o ambiente emocional do autor ao usar a ferramenta?
+8. [objetivo] O autor busca apenas comprovar que a imagem é falsa ou também se proteger de futuros ataques?
+9. [planejamento] Quanto tempo o autor estaria disposto a gastar para conseguir o resultado?
+10. [planejamento] O que o autor espera ao enviar a imagem?
+11. [planejamento] O autor espera apenas um resultado técnico ou também orientações sobre como agir?
+12. [avaliação] Como o autor se sentiria ao conseguir a resposta de forma clara e rápida?
+13. [avaliação] A ferramenta deve apenas resolver o problema imediato ou também empoderar o autor para situações futuras?
+14. [planejamento] Quais ações Larissa realizou para tentar utilizar os repositórios de código aberto?
+15. [ação] Larissa conseguiu instalar as ferramentas necessárias, como Python e VS Code?
+16. [planejamento] Quanto tempo Larissa gastou nesse processo de instalação e testes?
+17. [ação] O esforço que Larissa fez foi suficiente para chegar ao resultado esperado ou gerou mais frustração?
 
 ---
 
