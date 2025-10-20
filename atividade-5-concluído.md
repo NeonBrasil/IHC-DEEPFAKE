@@ -49,13 +49,33 @@ Compartilhar análises deepfakes
 Esta funcionalidade permite que usuários compartilhem resultados de análises de imagens (possivelmente deepfakes) através de diferentes canais de comunicação.
 
 **Diagrama:**
-![HTA_ARTHUR (1)](https://github.com/user-attachments/assets/d5900215-d986-4f27-9b94-33ec65915d1a)
-
+![HTA_ARTHUR (3)](https://github.com/user-attachments/assets/ca073265-465b-4d01-ac3a-8745a6e3b8ea)
 
 **Tabela:**
 | Objetivos/Operações | Problemas/Recomendações |
 |:--------------------|:------------------------|
-
+|0. Permitir compartilhar análises de imagens possivelmente deepfakes. 1>2>3>4|**Input:** Análise de imagem realizada por meio da plataforma e gráficos correspondentes gerados.<br> **Feedback:** Compartilhar a análise por aplicativos de mensagem, redes sociais ou e-mail.<br> **Plano:** Selecionar resultado a ser compartilhado e depois selecionar o canal de compartilhamento e depois configurar canal de compartilhamento e depois enviar compartilhamento. <br>|
+|1. Selecionar resultado a ser compartilhado. 1>2|**Plano:** Visualizar resultado da análise por meio da interface e depois pressionar o botão de compartilhar análise.|
+|1.1. Visualizar resultado da análise por meio da interface.| |
+|1.2. Pressionar o botão de compartilhar análise.| |
+|2. Selecionar o canal de compartilhamento. 1/2/3|**Plano:** Selecionar um icon de alguma rede social (instagram, facebook, X) ou selecionar um icon de algum aplicativo de mensagens (whatsapp, telegram) ou selecionar um icon de alguma plataforma de email (outlook, gmail).|
+|2.1. Selecionar um icon de alguma rede social (instagram, facebook, X).| |
+|2.2. Selecionar um icon de algum aplicativo de mensagens (whatsapp, telegram).| |
+|2.3. Selecionar um icon de alguma plataforma de email (outlook, gmail).| |
+|3. Configurar canal de compartilhamento. 1/2/3|**Plano:** Configurar envio no formato de redes sociais ou configurar envio para aplicativos de mensagem ou configurar envio para email.|
+|3.1. Configurar envio no formato de redes sociais. 1+2|**Plano:** Inserir link gerado pela plataforma e adicionar comentário opcional.|
+|3.1.1. Inserir link gerado pela plataforma.| |
+|3.1.2. Adicionar comentário opcional.| |
+|3.2. Configurar envio para aplicativos de mensagem. 1>2+3|**Plano:** Selecionar contato ou grupo e depois inserir link gerado pela plataforma e adicionar texto opcional.
+Ação: O compartilhamento é habilitado somente para dispositivos móveis.|
+|3.2.1. Selecionar contato ou grupo.|Ação: O contato deve estar salvo na lista telefônica no aparelho móvel.|
+|3.2.2. Inserir link gerado pela plataforma.| |
+|3.2.3. Adicionar texto opcional.| |
+|3.3. Configurar envio para email. 1+2+3|**Plano:** Inserir destinatário(s) e adicionar mensagem ao email e inserir link da plataforma.|
+|3.3.1. Inserir destinatário(s).| |
+|3.3.2. Adicionar mensagem ao email.| |
+|3.3.3. Inserir link da plataforma.| |
+|4. Enviar compartilhamento.| |
 ---
 
 ## **2) GOMS (Goals, Operators, Methods, Selection Rules)**
