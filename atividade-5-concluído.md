@@ -54,7 +54,7 @@ Esta funcionalidade permite que usuários compartilhem resultados de análises d
 **Tabela:**
 | Objetivos/Operações | Problemas/Recomendações |
 |:--------------------|:------------------------|
-|0. Permitir compartilhar análises de imagens possivelmente deepfakes. 1>2>3>4|**Input:** Análise de imagem realizada por meio da plataforma e gráficos correspondentes gerados.<br> **Feedback:** Compartilhar a análise por aplicativos de mensagem, redes sociais ou e-mail.<br> **Plano:** Selecionar resultado a ser compartilhado e depois selecionar o canal de compartilhamento e depois configurar canal de compartilhamento e depois enviar compartilhamento. <br>|
+|0. Permitir compartilhar análises de imagens possivelmente deepfakes. 1>2>3>4|**Input:** Análise de imagem realizada por meio da plataforma e geração de gráficos correspondentes gerados.<br> **Feedback:** Compartilhar a análise por aplicativos de mensagem, redes sociais ou e-mail.<br> **Plano:** Selecionar resultado a ser compartilhado e depois selecionar o canal de compartilhamento e depois configurar canal de compartilhamento e depois enviar compartilhamento. <br>|
 |1. Selecionar resultado a ser compartilhado. 1>2|**Plano:** Visualizar resultado da análise por meio da interface e depois pressionar o botão de compartilhar análise.|
 |1.1. Visualizar resultado da análise por meio da interface.| |
 |1.2. Pressionar o botão de compartilhar análise.| |
