@@ -68,7 +68,7 @@ Esta funcionalidade permite que usuários compartilhem resultados de análises d
 |3.1.2. Adicionar comentário opcional.| |
 |3.2. Configurar envio para aplicativos de mensagem. 1>2+3|**Plano:** Selecionar contato ou grupo e depois inserir link gerado pela plataforma e adicionar texto opcional.
 Ação: O compartilhamento é habilitado somente para dispositivos móveis.|
-|3.2.1. Selecionar contato ou grupo.|Ação: O contato deve estar salvo na lista telefônica no aparelho móvel.|
+|3.2.1. Selecionar contato ou grupo.|**Ação:** O contato deve estar salvo na lista telefônica no aparelho móvel.|
 |3.2.2. Inserir link gerado pela plataforma.| |
 |3.2.3. Adicionar texto opcional.| |
 |3.3. Configurar envio para email. 1+2+3|**Plano:** Inserir destinatário(s) e adicionar mensagem ao email e inserir link da plataforma.|
