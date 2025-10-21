@@ -1,20 +1,22 @@
-Protótipo do modo escuro:
+Protótipo:
+<img width="5640" height="2792" alt="image" src="https://github.com/user-attachments/assets/6e74242c-5353-4964-86bf-b619c4385a22" />
 
+Pagina Inicial: 
+<br>
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b9278d2e-62f6-4708-b850-8181fa4812a6" />
 
-<img width="400" height="511" alt="image" src="https://github.com/user-attachments/assets/ec2cd171-fc8f-41a9-aaab-a815386ba089" />
+Navbar:
+<br>
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/a631e1df-af1c-457b-b1fc-f92e9d3b07d3" />
 
-Protótipo modo claro:
+Pagina 1:
+<br>
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/37eaf313-fce9-41b5-abab-e8624c0c012b" />
 
+Pagina 2:
+<br>
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b7ccb944-5060-4513-a28e-c6486ee73479" />
 
-<img width="409" height="526" alt="image" src="https://github.com/user-attachments/assets/db62f671-11eb-4966-9f7c-31acc1bd8186" />
-
-Protótipo secção de notícias:
-
-<img width="392" height="509" alt="image" src="https://github.com/user-attachments/assets/85b4ddfc-e671-4667-af6f-2b0d90afee38" />
-
-
-Versão 0:
-
-<img width="1880" height="748" alt="image" src="https://github.com/user-attachments/assets/93269c13-8928-4afd-853e-303cd7b6e230" />
-
-<img width="1902" height="716" alt="image" src="https://github.com/user-attachments/assets/5db7e59a-9986-4e7f-8616-2ba8f4f2b2c6" />
+Pagina 3:
+<br>
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/838a8ec4-5b52-40be-b1e0-119b539871f7" />
