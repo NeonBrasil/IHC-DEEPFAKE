@@ -1,5 +1,6 @@
 Protótipo:
-<img width="5640" height="2792" alt="image" src="https://github.com/user-attachments/assets/6e74242c-5353-4964-86bf-b619c4385a22" />
+<img width="3793" height="4164" alt="image" src="https://github.com/user-attachments/assets/cbc05c59-a786-4c52-9a92-dc13688e1f0f" />
+
 
 Pagina Inicial: 
 <br>
@@ -7,7 +8,7 @@ Pagina Inicial:
 
 Navbar:
 <br>
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/a631e1df-af1c-457b-b1fc-f92e9d3b07d3" />
+<img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/35b0c773-53b9-438f-b115-9747510edc01" />
 
 Pagina 1:
 <br>
@@ -20,3 +21,7 @@ Pagina 2:
 Pagina 3:
 <br>
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/838a8ec4-5b52-40be-b1e0-119b539871f7" />
+
+Pagina 4:
+<br>
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/4ef37776-cf04-4de8-9824-d040402bd566" />
