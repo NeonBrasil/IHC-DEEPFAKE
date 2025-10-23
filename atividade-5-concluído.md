@@ -9,7 +9,7 @@ Upload e Análise de Imagem para Detecção de Deepfake.
 **Descrição da Funcionalidade:** <br>
 Esta funcionalidade permite que usuários façam upload de um arquivo de imagem para verificar se ela contém deepfakes. O sistema processa a imagem utilizando algoritmos de IA (EfficientNet-B0) e retorna um resultado com indicadores de confiabilidade.
 
-**Diagrama:**
+**Diagrama:** <br>
 ![HTA_VerificarIMG](https://github.com/user-attachments/assets/991fa6de-849f-45e7-827b-540bbf60bb77)
 
 **Tabela:**
@@ -48,7 +48,7 @@ Compartilhar análises deepfakes
 **Descrição da Funcionalidade:** <br>
 Esta funcionalidade permite que usuários compartilhem resultados de análises de imagens (possivelmente deepfakes) através de diferentes canais de comunicação.
 
-**Diagrama:**
+**Diagrama:** <br>
 ![HTA_ARTHUR (3)](https://github.com/user-attachments/assets/ca073265-465b-4d01-ac3a-8745a6e3b8ea)
 
 **Tabela:**
@@ -76,6 +76,34 @@ Ação: O compartilhamento é habilitado somente para dispositivos móveis.|
 |3.3.2. Adicionar mensagem ao email.| |
 |3.3.3. Inserir link da plataforma.| |
 |4. Enviar compartilhamento.| |
+---
+
+### **1) HTA (Hierarchical Task Analysis):**
+**Autor:** Yuri
+
+**Funcionalidade:** <br>
+Apresentar informações sobre deepfakes.
+
+**Descrição da Funcionalidade:** <br>
+Apresenta o processo de aprendizado sobre deepfakes, guiando o usuário desde o acesso à página educativa até a compreensão do conteúdo e do vídeo explicativo.
+
+**Diagrama:** <br>
+![HTA (2)](https://github.com/user-attachments/assets/4b62efbf-e709-4284-9ded-26287cf73b6c)
+
+**Tabela:**
+| Objetivos/Operações | Problemas/Recomendações |
+|:--------------------|:------------------------|
+|0. Aprender mais sobre deepfakes. 1>2+3|**Input**: Acesso a plataforma web.<br> **Feedback:** Engajamento sobre tema de deepfakes.<br> **Plano:** Acessar a página edutativa e depois ler o conteúdo introdutório e assistir ao vídeo explicando sobre deepfakes. <br>|
+|1. Acessar a página educativa. 1>2|**Plano:** Localizar o menu principal e depois selecionar o botão "Educação".|
+|1.1. Localizar o menu principal.| |
+|1.2. Selecionar o botão "Educação".| |
+|2. Ler o conteúdo introdutório. 1+2+3+4|**Plano:** Ler a definição de deepfake apresentada e visualizar exemplos ilustrativos e compreender a diferença entre imagens reais e manipuladas e ler sobre o impacto social dos deepfakes.|
+|2.1. Ler a definição de deepfake apresentada.| |
+|2.2. Visualizar exemplos ilustrativos.| |
+|2.3. Compreender a diferença entre imagens reais e manipuladas.| |
+|2.4. Ler sobre o impacto social dos deepfakes.| |
+|3. Assistir ao vídeo explicativo sobre deepfakes.| |
+
 ---
 
 ## **2) GOMS (Goals, Operators, Methods, Selection Rules)**
