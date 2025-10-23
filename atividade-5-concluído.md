@@ -107,98 +107,400 @@ Apresenta o processo de aprendizado sobre deepfakes, guiando o usuário desde o 
 ---
 
 ## **2) GOMS (Goals, Operators, Methods, Selection Rules)**
-**Funcionalidade: Navegação na Seção Educativa sobre Deepfakes**
-**(Autor: Arthur)**
+**Funcionalidade: Upload e Análise de Imagem para Detecção de Deepfake.** <br>
+**(Autor: Cayque)**
 
 ### Descrição da Funcionalidade:
-Esta funcionalidade permite aos usuários explorar conteúdo educativo sobre deepfakes, incluindo artigos, vídeos explicativos e exemplos práticos. Atende especialmente à persona Ana Paula Mendes (professora) que busca material didático para suas aulas sobre ética digital.
+Esta funcionalidade permite que usuários façam upload de um arquivo de imagem para verificar se ela contém deepfakes. O sistema processa a imagem utilizando algoritmos de IA (EfficientNet-B0) e retorna um resultado com indicadores de confiabilidade.
 
 ### Modelo GOMS:
 
-**GOAL:** Encontrar e consumir conteúdo educativo sobre deepfakes
+```
+GOAL 0: Verificar se a imagem é um deepfake 
 
-**METHOD 1:** Busca por categoria temática
-- **OPERATOR:** Clicar em "Seção Educativa" no menu principal
-- **OPERATOR:** Selecionar categoria desejada (ex: "O que são Deepfakes")
-- **OPERATOR:** Navegar pelos itens da categoria
-- **OPERATOR:** Clicar no conteúdo de interesse
-- **OPERATOR:** Ler/assistir o conteúdo completo
-- **OPERATOR:** Avaliar utilidade do material (opcional)
+    GOAL 1: Preparar arquivo de imagem 
+        METHOD 1.A: Preparação sequencial do arquivo 
+          (SEL. RULE: sempre use este método - procedimento padrão obrigatório) 
+          OP. 1.A.1: Localizar arquivo no dispositivo 
+          OP. 1.A.2: Verificar formato compatível (JPG, PNG) 
+          OP. 1.A.3: Confirmar tamanho do arquivo (máx. 10MB) 
+          OP. 1.A.4: Verificar se arquivo está pronto para upload 
 
-**METHOD 2:** Busca por palavra-chave
-- **OPERATOR:** Clicar na barra de pesquisa da seção educativa
-- **OPERATOR:** Digitar termo de busca
-- **OPERATOR:** Pressionar Enter ou clicar em "Buscar"
-- **OPERATOR:** Analisar resultados apresentados
-- **OPERATOR:** Clicar no item mais relevante
-- **OPERATOR:** Consumir o conteúdo
-- **OPERATOR:** Refinar busca se necessário
+    GOAL 2: Acessar sistema de upload 
+        METHOD 2.A: Acesso ao detector 
+          (SEL. RULE: sempre use este método - caminho único de acesso) 
+          OP. 2.A.1: Navegar para seção "Detector" 
+          OP. 2.A.2: Clicar em "Analisar Imagem" 
+          OP. 2.A.3: Verificar acesso à interface de upload 
 
-**METHOD 3:** Exploração guiada por trilha de aprendizagem
-- **OPERATOR:** Clicar em "Trilhas de Aprendizagem"
-- **OPERATOR:** Escolher nível (Iniciante/Intermediário/Avançado)
-- **OPERATOR:** Selecionar trilha temática
-- **OPERATOR:** Seguir sequência sugerida de conteúdos
-- **OPERATOR:** Marcar progresso em cada etapa
-- **OPERATOR:** Continuar até completar trilha
+    GOAL 3: Realizar upload do arquivo 
+        METHOD 3.A: Upload por seleção manual 
+          (SEL. RULE: usuário prefere seleção por interface ou não conhece arrastar) 
+          OP. 3.A.1: Clicar em "Selecionar arquivo" 
+          OP. 3.A.2: Confirmar seleção 
+          OP. 3.A.3: Visualizar prévia da imagem selecionada 
+          OP. 3.A.4: Verificar que imagem foi carregada corretamente 
+    
+        **METHOD 3.B:** Upload por arrastar arquivo 
+          (SEL. RULE: usuário conhece funcionalidade de arrastar e prefere este método) 
+          OP. 3.B.1: Arrastar um arquivo para área de upload 
+          OP. 3.B.2: Visualizar prévia da imagem selecionada 
+          OP. 3.B.3: Verificar que imagem foi carregada corretamente 
 
-**SELECTION RULES:**
-- **Rule 1:** Se o usuário tem objetivo específico de aprendizagem → usar METHOD 3
-- **Rule 2:** Se o usuário busca informação pontual → usar METHOD 2  
-- **Rule 3:** Se o usuário quer explorar amplamente o tema → usar METHOD 1
-- **Rule 4:** Se o usuário é professor preparando aula → combinar METHOD 1 + METHOD 3
+      GOAL 4: Executar análise <br>
+        METHOD 4.A: Processar detecção 
+          (SEL. RULE: sempre use este método - procedimento único de análise) 
+          OP. 4.A.1: Clicar em "Iniciar Análise" 
+          OP. 4.A.2: Acompanhar barra de progresso 
+          OP. 4.A.3: Aguardar processamento completo 
+          OP. 4.A.4: Verificar conclusão da análise 
+
+    GOAL 5: Visualizar e interpretar resultado <br>
+        METHOD 5.A: Interpretação completa dos resultados 
+          (SEL. RULE: sempre use este método - visualização padrão de resultados) 
+          OP. 5.A.1: Analisar pontuação de autenticidade (0% - 100%) 
+          OP. 5.A.2: Examinar indicadores visuais da imagem 
+          OP. 5.A.3: Baixar relatório 
+          OP. 5.A.4: Verificar compreensão do resultado obtido 
+```
+---
+## **2) GOMS (Goals, Operators, Methods, Selection Rules)**
+**Funcionalidade: Compartilhar análises deepfakes.** <br>
+**(Autor: Arthur)**
+
+### Descrição da Funcionalidade:
+Esta funcionalidade permite que usuários compartilhem resultados de análises de imagens (possivelmente deepfakes) através de diferentes canais de comunicação.
+
+### Modelo GOMS:
+
+```
+GOAL 0: Permitir compartilhar análises de imagens possivelmente deepfakes
+
+  GOAL 1: Selecionar resultado a ser compartilhado
+    METHOD 1.A: Visualizar resultado da análise
+      (SEL. RULE: usuário deseja revisar análise antes de compartilhar)
+      OP. 1.A.1: Visualizar resultado da análise por meio da interface
+      OP. 1.A.2: Verificar informações do resultado
+    
+    METHOD 1.B: Acionar botão de compartilhamento
+      (SEL. RULE: usuário já verificou análise e deseja compartilhar)
+      OP. 1.B.1: Pressionar o botão de compartilhar análise
+      OP. 1.B.2: Verificar que opções de compartilhamento foram abertas
+
+  GOAL 2: Selecionar o canal de compartilhamento
+    METHOD 2.A: Compartilhar em rede social
+      (SEL. RULE: usuário deseja compartilhar publicamente ou com amigos em redes sociais)
+      GOAL 2.A.1: Selecionar plataforma de rede social
+        METHOD 2.A.1.A: Compartilhar via Instagram ou Facebook
+          (SEL. RULE: usuário prefere redes sociais visuais)
+          OP. 2.A.1.A.1: Selecionar um ícone de alguma rede social (instagram, facebook, X)
+          OP. 2.A.1.A.2: Verificar redirecionamento para plataforma
+        
+        METHOD 2.A.1.B: Compartilhar via aplicativo de mensagem
+          (SEL. RULE: usuário prefere mensageiro instantâneo)
+          OP. 2.A.1.B.1: Selecionar um ícone de algum aplicativo de mensagens (whatsapp, telegram)
+          OP. 2.A.1.B.2: Verificar abertura do aplicativo
+    
+    METHOD 2.B: Compartilhar via email
+      (SEL. RULE: usuário deseja compartilhamento formal ou com múltiplos destinatários)
+      GOAL 2.B.1: Selecionar plataforma de email
+        METHOD 2.B.1.A: Usar webmail
+          (SEL. RULE: usuário utiliza email baseado em web)
+          OP. 2.B.1.A.1: Selecionar um ícone de alguma plataforma de email (outlook, gmail)
+          OP. 2.B.1.A.2: Verificar abertura do cliente de email
+
+  GOAL 3: Configurar canal de compartilhamento
+    METHOD 3.A: Configurar envio para redes sociais
+      (SEL. RULE: canal selecionado foi rede social)
+      OP. 3.A.1: Configurar envio no formato de redes sociais
+      OP. 3.A.2: Inserir link gerado pela plataforma
+      OP. 3.A.3: Adicionar comentário opcional
+      OP. 3.A.4: Verificar configuração do compartilhamento
+    
+    METHOD 3.B: Configurar envio para mensageiros
+      (SEL. RULE: canal selecionado foi aplicativo de mensagem)
+      OP. 3.B.1: Configurar envio para aplicativos de mensagem
+      GOAL 3.B.2: Selecionar destinatário
+        METHOD 3.B.2.A: Enviar para contato individual
+          (SEL. RULE: usuário deseja compartilhar com pessoa específica)
+          OP. 3.B.2.A.1: Selecionar contato ou grupo
+          OP. 3.B.2.A.2: Verificar seleção do destinatário
+        
+        METHOD 3.B.2.B: Enviar para múltiplos contatos
+          (SEL. RULE: usuário deseja compartilhar com várias pessoas)
+          OP. 3.B.2.B.1: Adicionar texto opcional
+          OP. 3.B.2.B.2: Verificar mensagem configurada
+      OP. 3.B.3: Inserir link gerado pela plataforma
+      OP. 3.B.4: Verificar configuração completa do envio
+    
+    METHOD 3.C: Configurar envio para email
+      (SEL. RULE: canal selecionado foi email)
+      OP. 3.C.1: Configurar envio para email
+      OP. 3.C.2: Inserir destinatário(s)
+      OP. 3.C.3: Inserir link da plataforma
+      OP. 3.C.4: Adicionar mensagem ao email
+      OP. 3.C.5: Verificar configuração do email
+
+  GOAL 4: Enviar compartilhamento
+    METHOD 4.A: Confirmar e enviar
+      (SEL. RULE: sempre use este método - ação final obrigatória)
+      OP. 4.A.1: Confirmar envio do compartilhamento
+      OP. 4.A.2: Aguardar confirmação de envio
+      OP. 4.A.3: Verificar que compartilhamento foi realizado com sucesso
+```
+---
+## **2) GOMS (Goals, Operators, Methods, Selection Rules)**
+**Funcionalidade: Apresentar informações sobre deepfakes.** <br>
+**(Autor: Yuri)**
+
+### Descrição da Funcionalidade:
+Apresenta o processo de aprendizado sobre deepfakes, guiando o usuário desde o acesso à página educativa até a compreensão do conteúdo e do vídeo explicativo.
+
+### Modelo GOMS:
+
+```
+GOAL 0: Aprender mais sobre deepfakes
+
+  GOAL 1: Acessar a página educativa
+    METHOD 1.A: Navegação pela interface
+      (SEL. RULE: sempre use este método - acesso obrigatório à página)
+      OP. 1.A.1: Localizar o menu principal
+      OP. 1.A.2: Selecionar o botão "Educação"
+      OP. 1.A.3: Verificar carregamento da página educativa
+
+  GOAL 2: Ler o conteúdo introdutório
+    METHOD 2.A: Leitura da definição de deepfake
+      (SEL. RULE: usuário deseja compreender conceito básico primeiro)
+      OP. 2.A.1: Ler a definição de deepfake apresentada
+      OP. 2.A.2: Verificar compreensão do conceito
+    
+    METHOD 2.B: Visualização de exemplos ilustrativos
+      (SEL. RULE: usuário prefere aprendizado visual)
+      OP. 2.B.1: Visualizar exemplos ilustrativos
+      OP. 2.B.2: Verificar compreensão dos exemplos
+    
+    METHOD 2.C: Compreensão de diferenças entre imagens
+      (SEL. RULE: usuário deseja entender critérios de identificação)
+      OP. 2.C.1: Compreender a diferença entre imagens reais e manipuladas
+      OP. 2.C.2: Verificar entendimento das características distintivas
+    
+    METHOD 2.D: Leitura sobre impacto social
+      (SEL. RULE: usuário deseja contexto mais amplo sobre deepfakes)
+      OP. 2.D.1: Ler sobre o impacto social dos deepfakes
+      OP. 2.D.2: Verificar compreensão das implicações sociais
+
+  GOAL 3: Assistir ao vídeo explicativo sobre deepfakes
+    METHOD 3.A: Reprodução do vídeo educativo
+      (SEL. RULE: sempre use este método - conteúdo complementar em vídeo)
+      OP. 3.A.1: Localizar vídeo explicativo na página
+      OP. 3.A.2: Iniciar reprodução do vídeo
+      OP. 3.A.3: Assistir ao conteúdo do vídeo
+      OP. 3.A.4: Verificar compreensão do conteúdo apresentado
+```
 
 ---
 
 ## **3) CTT (ConcurTaskTrees)**
-**Funcionalidade: Visualização e Interpretação de Resultados de Análise**
-**(Autor: Yuri)**
+**Funcionalidade: Upload e Análise de Imagem para Detecção de Deepfake.** <br>
+**(Autor: Cayque)**
 
 ### Descrição da Funcionalidade:
-Esta funcionalidade permite que usuários visualizem e compreendam os resultados da análise de deepfake de uma imagem enviada. O sistema apresenta os resultados de forma clara e intuitiva, com explicações detalhadas para diferentes níveis de usuário. Atende especialmente às personas que precisam de informações confiáveis e compreensíveis sobre a autenticidade das imagens analisadas.
+Esta funcionalidade permite que usuários façam upload de um arquivo de imagem para verificar se ela contém deepfakes. O sistema processa a imagem utilizando algoritmos de IA (EfficientNet-B0) e retorna um resultado com indicadores de confiabilidade.
 
 ### Diagrama CTT:
 
 ```
-Visualizar e Interpretar Resultados
-├── Aguardar Processamento
-│   ├── Observar Barra de Progresso
-│   └── Receber Notificação de Conclusão
-│
-├── Analisar Resultado Principal
-│   ├── Ler Pontuação Geral
-│   ├── Interpretar Classificação
-│   └── Compreender Veredito
-│
-├── Explorar Detalhes Técnicos
-│   ├── Examinar Indicadores Visuais [ ]
-│   ├── Analisar Gráficos de Confiança [ ]
-│   ├── Ler Explicação Técnica [ ]
-│   └── Ver Regiões Suspeitas [ ]
-│
-├── Obter Explicações → "Saiba Mais"
-│   ├── Ler Explicação Simplificada
-│   ├── Ver Exemplos Comparativos [ ]
-│   └── Acessar Glossário [ ]
-│
-└── Ações Pós-Análise
-    ├── Salvar Resultado [ ]
-    ├── Baixar Relatório PDF [ ] → Escolher Formato
-    ├── Compartilhar Link [ ]
-    └── Analisar Nova Imagem [ ]
-
+Verificar se a imagem é um deepfake
+|
+[>> (ativação sequencial)
+|
++-- Preparar arquivo de imagem
+|   |
+|   [>> (ativação sequencial)
+|   |
+|   +-- Localizar arquivo no dispositivo (usuário)
+|   +-- Verificar formato compatível (usuário)
+|   +-- Confirmar tamanho do arquivo (usuário)
+|
++-- Acessar sistema de upload
+|   |
+|   [>> (ativação sequencial)
+|   |
+|   +-- Navegar para seção "Detector" (interativa)
+|   +-- Clicar em "Analisar Imagem" (interativa)
+|
++-- Realizar upload do arquivo
+|   |
+|   [>> (ativação sequencial)
+|   |
+|   +-- Selecionar método de upload (abstrata)
+|   |   |
+|   |   [] (escolha)
+|   |   |
+|   |   +-- Upload por seleção manual (interativa)
+|   |   |   |
+|   |   |   [>> (ativação sequencial)
+|   |   |   |
+|   |   |   +-- Clicar em "Selecionar arquivo" (interativa)
+|   |   |   +-- Confirmar seleção (interativa)
+|   |   |
+|   |   +-- Upload por arrastar (interativa)
+|   |       |
+|   |       +-- Arrastar arquivo (interativa)
+|   |
+|   +-- Visualizar prévia da imagem (sistema)
+|
++-- Executar análise
+|   |
+|   [>> (ativação sequencial)
+|   |
+|   +-- Clicar em "Iniciar Análise" (interativa)
+|   +-- Acompanhar progresso (usuário)
+|   ||| (concorrente com)
+|   +-- Processar análise (sistema)
+|
++-- Visualizar e interpretar resultado
+    |
+    [>> (ativação sequencial)
+    |
+    +-- Analisar pontuação de autenticidade (usuário)
+    +-- Examinar indicadores visuais (usuário)
+    +-- Baixar relatório (interativa)
 ```
 
-### Legenda CTT:
-- **[]** = Tarefa opcional
-- **()** = Tarefa elementar (ação do usuário)
-- **||| ** = Tarefa concorrente (pode ser executada simultaneamente)
-- **>>** = Tarefa com habilitação (uma habilita a outra)
-- **Sem símbolo** = Tarefa abstrata (composta por subtarefas)
+---
+## **3) CTT (ConcurTaskTrees)**
+**Funcionalidade: Compartilhar análises deepfakes.** <br>
+**(Autor: Arthur)**
 
-### Cenário de Execução:
-1. **Aguardo:** Usuário observa o progresso do processamento da imagem enviada
-2. **Análise paralela:** Simultaneamente examina o resultado principal (pontuação e veredicto) e pode explorar detalhes técnicos opcionais
-3. **Aprofundamento:** Se necessário, acessa explicações adicionais para compreender melhor o resultado
-4. **Ações finais:** Realiza ações conforme sua necessidade (salvar, baixar relatório, compartilhar ou analisar nova imagem)
+### Descrição da Funcionalidade:
+Esta funcionalidade permite que usuários compartilhem resultados de análises de imagens (possivelmente deepfakes) através de diferentes canais de comunicação.
+
+### Diagrama CTT:
+
+```
+Permitir compartilhar análises de imagens possivelmente deepfakes
+|
+[>> (ativação sequencial)
+|
++-- Selecionar resultado a ser compartilhado (abstrata)
+|   |
+|   [] (escolha)
+|   |
+|   +-- Visualizar resultado da análise (interativa)
+|   +-- Pressionar botão de compartilhar (interativa)
+|
++-- Selecionar canal de compartilhamento (abstrata)
+|   |
+|   [] (escolha)
+|   |
+|   +-- Compartilhar em rede social (abstrata)
+|   |   |
+|   |   [] (escolha)
+|   |   |
+|   |   +-- Selecionar rede social visual (interativa)
+|   |   |   (Instagram, Facebook, X)
+|   |   |
+|   |   +-- Selecionar aplicativo de mensagem (interativa)
+|   |       (WhatsApp, Telegram)
+|   |
+|   +-- Compartilhar via email (abstrata)
+|       |
+|       +-- Selecionar plataforma de email (interativa)
+|           (Outlook, Gmail)
+|
++-- Configurar canal de compartilhamento (abstrata)
+|   |
+|   [] (escolha baseada no canal)
+|   |
+|   +-- Configurar envio para redes sociais (abstrata)
+|   |   |
+|   |   [>> (ativação sequencial)
+|   |   |
+|   |   +-- Inserir link gerado (interativa)
+|   |   +-- Adicionar comentário opcional (interativa)
+|   |
+|   +-- Configurar envio para mensageiros (abstrata)
+|   |   |
+|   |   [>> (ativação sequencial)
+|   |   |
+|   |   +-- Selecionar destinatário (abstrata)
+|   |   |   |
+|   |   |   [] (escolha)
+|   |   |   |
+|   |   |   +-- Selecionar contato ou grupo (interativa)
+|   |   |   +-- Adicionar texto opcional (interativa)
+|   |   |
+|   |   +-- Inserir link gerado (interativa)
+|   |
+|   +-- Configurar envio para email (abstrata)
+|       |
+|       [>> (ativação sequencial)
+|       |
+|       +-- Inserir destinatário(s) (interativa)
+|       +-- Inserir link da plataforma (interativa)
+|       +-- Adicionar mensagem ao email (interativa)
+|
++-- Enviar compartilhamento (interativa)
+```
+
+---
+## **3) CTT (ConcurTaskTrees)**
+**Funcionalidade: Apresentar informações sobre deepfakes.** <br>
+**(Autor: Yuri)**
+
+### Descrição da Funcionalidade:
+Apresenta o processo de aprendizado sobre deepfakes, guiando o usuário desde o acesso à página educativa até a compreensão do conteúdo e do vídeo explicativo.
+
+### Diagrama CTT:
+
+```
+Aprender mais sobre deepfakes
+|
+[>> (ativação sequencial)
+|
++-- Acessar a página educativa (abstrata)
+|   |
+|   [>> (ativação sequencial)
+|   |
+|   +-- Localizar menu principal (usuário)
+|   +-- Selecionar botão "Educação" (interativa)
+|   +-- Aguardar carregamento (sistema)
+|
++-- Ler conteúdo introdutório (abstrata)
+|   |
+|   |=| (tarefas independentes - ordem livre)
+|   |
+|   +-- Ler definição de deepfake (usuário)
+|   +-- Visualizar exemplos ilustrativos (usuário)
+|   +-- Compreender diferença entre imagens reais e manipuladas (usuário)
+|   +-- Ler sobre impacto social dos deepfakes (usuário)
+|
++-- Assistir ao vídeo explicativo sobre deepfakes (abstrata)
+    |
+    [>> (ativação sequencial)
+    |
+    +-- Localizar vídeo explicativo (usuário)
+    +-- Iniciar reprodução (interativa)
+    +-- Assistir conteúdo do vídeo (usuário)
+    ||| (concorrente com)
+    +-- Reproduzir vídeo (sistema)
+```
+
+---
+
+### Legenda CTT:
+- **[>>]** = Ativação sequencial (T1 >> T2)
+- **[]** = Escolha/alternativa (T1 [] T2)
+- **|||** = Tarefas concorrentes (T1 ||| T2)
+- **|=|** = Tarefas independentes (T1 |=| T2)
+- **[>]** = Desativação (T1 [> T2)
+- **|>** = Suspensão/retomada (T1 |> T2)
+
+### Tipos de Tarefas:
+
+- **(usuário)** = Tarefa do usuário (fora do sistema)
+- **(sistema)** = Tarefa do sistema
+- **(interativa)** = Tarefa interativa (diálogo usuário-sistema)
+- **(abstrata)** = Tarefa abstrata (composição de tarefas)
 
