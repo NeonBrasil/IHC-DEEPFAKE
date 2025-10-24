@@ -52,7 +52,7 @@ Ana, 19 anos, estudante universitária, está no grupo de WhatsApp da família e
 ### **3) Mapa de Objetivos**
 #### **Mapa de Objetivos - Persona: Maria (Jornalista)**
 
-<img width="1431" height="946" alt="image" src="https://github.com/user-attachments/assets/49e14d55-50d7-43e7-a441-bfb92f45facf" />
+<img width="1431" height="946" alt="image" src="https://github.com/user-attachments/assets/87b518a4-d80e-4255-a62b-6674718ed1dd" />
 
 ## **4) Esquema Conceitual de Signos**
 
