@@ -116,52 +116,52 @@ Esta funcionalidade permite que usuários façam upload de um arquivo de imagem 
 ### Modelo GOMS:
 
 ```
-GOAL 0: Verificar se a imagem é um deepfake 
+GOAL 0: Verificar se a imagem é um deepfake
 
-    GOAL 1: Preparar arquivo de imagem 
-        METHOD 1.A: Preparação sequencial do arquivo 
-          (SEL. RULE: sempre use este método - procedimento padrão obrigatório) 
-          OP. 1.A.1: Localizar arquivo no dispositivo 
-          OP. 1.A.2: Verificar formato compatível (JPG, PNG) 
-          OP. 1.A.3: Confirmar tamanho do arquivo (máx. 10MB) 
-          OP. 1.A.4: Verificar se arquivo está pronto para upload 
+    GOAL 1: Preparar arquivo de imagem
+        METHOD 1.A: Preparação sequencial do arquivo
+          (SEL. RULE: sempre use este método - procedimento padrão obrigatório)
+          OP. 1.A.1: Localizar arquivo no dispositivo
+          OP. 1.A.2: Verificar formato compatível (JPG, PNG)
+          OP. 1.A.3: Confirmar tamanho do arquivo (máx. 10MB)
+          OP. 1.A.4: Verificar se arquivo está pronto para upload
 
-    GOAL 2: Acessar sistema de upload 
-        METHOD 2.A: Acesso ao detector 
-          (SEL. RULE: sempre use este método - caminho único de acesso) 
-          OP. 2.A.1: Navegar para seção "Detector" 
-          OP. 2.A.2: Clicar em "Analisar Imagem" 
-          OP. 2.A.3: Verificar acesso à interface de upload 
+    GOAL 2: Acessar sistema de upload
+        METHOD 2.A: Acesso ao detector
+          (SEL. RULE: sempre use este método - caminho único de acesso)
+          OP. 2.A.1: Navegar para seção "Detector"
+          OP. 2.A.2: Clicar em "Analisar Imagem"
+          OP. 2.A.3: Verificar acesso à interface de upload
 
-    GOAL 3: Realizar upload do arquivo 
-        METHOD 3.A: Upload por seleção manual 
-          (SEL. RULE: usuário prefere seleção por interface ou não conhece arrastar) 
-          OP. 3.A.1: Clicar em "Selecionar arquivo" 
-          OP. 3.A.2: Confirmar seleção 
-          OP. 3.A.3: Visualizar prévia da imagem selecionada 
-          OP. 3.A.4: Verificar que imagem foi carregada corretamente 
-    
-        **METHOD 3.B:** Upload por arrastar arquivo 
-          (SEL. RULE: usuário conhece funcionalidade de arrastar e prefere este método) 
-          OP. 3.B.1: Arrastar um arquivo para área de upload 
-          OP. 3.B.2: Visualizar prévia da imagem selecionada 
-          OP. 3.B.3: Verificar que imagem foi carregada corretamente 
+    GOAL 3: Realizar upload do arquivo
+        METHOD 3.A: Upload por seleção manual
+          (SEL. RULE: usuário prefere seleção por interface ou não conhece arrastar)
+          OP. 3.A.1: Clicar em "Selecionar arquivo"
+          OP. 3.A.2: Confirmar seleção
+          OP. 3.A.3: Visualizar prévia da imagem selecionada
+          OP. 3.A.4: Verificar que imagem foi carregada corretamente
+
+        **METHOD 3.B:** Upload por arrastar arquivo
+          (SEL. RULE: usuário conhece funcionalidade de arrastar e prefere este método)
+          OP. 3.B.1: Arrastar um arquivo para área de upload
+          OP. 3.B.2: Visualizar prévia da imagem selecionada
+          OP. 3.B.3: Verificar que imagem foi carregada corretamente
 
       GOAL 4: Executar análise <br>
-        METHOD 4.A: Processar detecção 
-          (SEL. RULE: sempre use este método - procedimento único de análise) 
-          OP. 4.A.1: Clicar em "Iniciar Análise" 
-          OP. 4.A.2: Acompanhar barra de progresso 
-          OP. 4.A.3: Aguardar processamento completo 
-          OP. 4.A.4: Verificar conclusão da análise 
+        METHOD 4.A: Processar detecção
+          (SEL. RULE: sempre use este método - procedimento único de análise)
+          OP. 4.A.1: Clicar em "Iniciar Análise"
+          OP. 4.A.2: Acompanhar barra de progresso
+          OP. 4.A.3: Aguardar processamento completo
+          OP. 4.A.4: Verificar conclusão da análise
 
     GOAL 5: Visualizar e interpretar resultado <br>
-        METHOD 5.A: Interpretação completa dos resultados 
-          (SEL. RULE: sempre use este método - visualização padrão de resultados) 
-          OP. 5.A.1: Analisar pontuação de autenticidade (0% - 100%) 
-          OP. 5.A.2: Examinar indicadores visuais da imagem 
-          OP. 5.A.3: Baixar relatório 
-          OP. 5.A.4: Verificar compreensão do resultado obtido 
+        METHOD 5.A: Interpretação completa dos resultados
+          (SEL. RULE: sempre use este método - visualização padrão de resultados)
+          OP. 5.A.1: Analisar pontuação de autenticidade (0% - 100%)
+          OP. 5.A.2: Examinar indicadores visuais da imagem
+          OP. 5.A.3: Baixar relatório
+          OP. 5.A.4: Verificar compreensão do resultado obtido
 ```
 ---
 ## **2) GOMS (Goals, Operators, Methods, Selection Rules)**
@@ -181,7 +181,7 @@ GOAL 0: Permitir compartilhar análises de imagens possivelmente deepfakes
       (SEL. RULE: usuário deseja revisar análise antes de compartilhar)
       OP. 1.A.1: Visualizar resultado da análise por meio da interface
       OP. 1.A.2: Verificar informações do resultado
-    
+
     METHOD 1.B: Acionar botão de compartilhamento
       (SEL. RULE: usuário já verificou análise e deseja compartilhar)
       OP. 1.B.1: Pressionar o botão de compartilhar análise
@@ -195,12 +195,12 @@ GOAL 0: Permitir compartilhar análises de imagens possivelmente deepfakes
           (SEL. RULE: usuário prefere redes sociais visuais)
           OP. 2.A.1.A.1: Selecionar um ícone de alguma rede social (instagram, facebook, X)
           OP. 2.A.1.A.2: Verificar redirecionamento para plataforma
-        
+
         METHOD 2.A.1.B: Compartilhar via aplicativo de mensagem
           (SEL. RULE: usuário prefere mensageiro instantâneo)
           OP. 2.A.1.B.1: Selecionar um ícone de algum aplicativo de mensagens (whatsapp, telegram)
           OP. 2.A.1.B.2: Verificar abertura do aplicativo
-    
+
     METHOD 2.B: Compartilhar via email
       (SEL. RULE: usuário deseja compartilhamento formal ou com múltiplos destinatários)
       GOAL 2.B.1: Selecionar plataforma de email
@@ -216,7 +216,7 @@ GOAL 0: Permitir compartilhar análises de imagens possivelmente deepfakes
       OP. 3.A.2: Inserir link gerado pela plataforma
       OP. 3.A.3: Adicionar comentário opcional
       OP. 3.A.4: Verificar configuração do compartilhamento
-    
+
     METHOD 3.B: Configurar envio para mensageiros
       (SEL. RULE: canal selecionado foi aplicativo de mensagem)
       OP. 3.B.1: Configurar envio para aplicativos de mensagem
@@ -225,14 +225,14 @@ GOAL 0: Permitir compartilhar análises de imagens possivelmente deepfakes
           (SEL. RULE: usuário deseja compartilhar com pessoa específica)
           OP. 3.B.2.A.1: Selecionar contato ou grupo
           OP. 3.B.2.A.2: Verificar seleção do destinatário
-        
+
         METHOD 3.B.2.B: Enviar para múltiplos contatos
           (SEL. RULE: usuário deseja compartilhar com várias pessoas)
           OP. 3.B.2.B.1: Adicionar texto opcional
           OP. 3.B.2.B.2: Verificar mensagem configurada
       OP. 3.B.3: Inserir link gerado pela plataforma
       OP. 3.B.4: Verificar configuração completa do envio
-    
+
     METHOD 3.C: Configurar envio para email
       (SEL. RULE: canal selecionado foi email)
       OP. 3.C.1: Configurar envio para email
@@ -273,17 +273,17 @@ GOAL 0: Aprender mais sobre deepfakes
       (SEL. RULE: usuário deseja compreender conceito básico primeiro)
       OP. 2.A.1: Ler a definição de deepfake apresentada
       OP. 2.A.2: Verificar compreensão do conceito
-    
+
     METHOD 2.B: Visualização de exemplos ilustrativos
       (SEL. RULE: usuário prefere aprendizado visual)
       OP. 2.B.1: Visualizar exemplos ilustrativos
       OP. 2.B.2: Verificar compreensão dos exemplos
-    
+
     METHOD 2.C: Compreensão de diferenças entre imagens
       (SEL. RULE: usuário deseja entender critérios de identificação)
       OP. 2.C.1: Compreender a diferença entre imagens reais e manipuladas
       OP. 2.C.2: Verificar entendimento das características distintivas
-    
+
     METHOD 2.D: Leitura sobre impacto social
       (SEL. RULE: usuário deseja contexto mais amplo sobre deepfakes)
       OP. 2.D.1: Ler sobre o impacto social dos deepfakes
@@ -503,4 +503,3 @@ Aprender mais sobre deepfakes
 - **(sistema)** = Tarefa do sistema
 - **(interativa)** = Tarefa interativa (diálogo usuário-sistema)
 - **(abstrata)** = Tarefa abstrata (composição de tarefas)
-

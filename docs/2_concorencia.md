@@ -1,4 +1,4 @@
-# Entrega 2 
+# Entrega 2
 
 1. **Público Alvo:**
 * Público educacional: professores, estudantes.
@@ -18,7 +18,7 @@
         **Descrição:** A Sensity AI é uma plataforma de detecção de deepfakes que usa IA para identificar manipulações em vídeos, imagens e áudios, voltada para segurança digital e prevenção de fraudes. <br>
         **Imagem:** <br>
         <img width="637" height="462" alt="image" src="https://github.com/user-attachments/assets/6ac41ad5-e396-41ac-968d-d4d68d99fc58" /> <br>
-      
+
       * **Tecnológico:** Hacker News <br>
         **Link:** https://news.ycombinator.com/ <br>
         **Descrição:** O Hacker News é um site de notícias e uma comunidade focada em cibersegurança, onde profissionais de TI e segurança digital compartilham atualizações sobre ataques, vulnerabilidades e análises técnicas. Além de fornecer informações, a plataforma promove a troca de conhecimentos e discussões entre os membros, fortalecendo o engajamento da comunidade. <br>
@@ -40,19 +40,19 @@
       * **COURSERA:** Seu modelo de negócio é baseado na oferta de cursos pagos individualmente com certificados, em assinaturas como o Coursera Plus que permitem acesso ilimitado e em parcerias corporativas com empresas e instituições que compram pacotes de treinamento para seus colaboradores. (Licença anual por volta de US$ 167,30 USD).
       * **Hacker News:** O Hacker News é um site de comunidade e notícias voltado para tecnologia e empreendedorismo, mantido pelo fundo de investimentos Y Combinator. Diferente de plataformas tradicionais, não possui foco direto em monetização por anúncios, funcionando como um espaço de engajamento e troca de conhecimento entre desenvolvedores, fundadores e entusiastas. Assim, contribui para reforçar o ecossistema da Y Combinator, ampliando sua visibilidade e atraindo talentos e startups. (Não há valores repaçados para usuários).
       *  **SENSITY:** Seu modelo de negócio é voltado para o mercado corporativo e governamental, funcionando como um serviço em nuvem no formato SaaS. A empresa oferece uma plataforma de monitoramento contínuo, além de APIs e SDKs que permitem integrar suas soluções diretamente aos sistemas dos clientes, agregando valor através de segurança digital especializada.
-   
+
 
     2.5. **Padrões e tendências no mercado:**
      * Público educacional (professores e estudantes):
         * Interface simples e acessível: design limpo, intuitivo e responsivo.
         * Acessibilidade: recursos como legendas automáticas.
         * Multiplataforma: disponibilidade em mobile, desktop e outros dispositivos.
-          
+
       * Público profissional (jornalistas e veículos de mídia):
         * Foco na clareza da informação (hierarquia visual).
         * Minimalismo funcional (evitar excesso de elementos).
         * Ferramentas integradas para checagem e análise de dados/notícias em tempo real.
-   
+
       * Público tecnológico (comunidade de segurança digital):
         * Design minimalista e sem distrações (ex.: Hacker News, GitHub).
         * Eficiência e rapidez acima da estética.

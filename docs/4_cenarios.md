@@ -4,7 +4,7 @@
 
 ### Envio de imagem para análise de possível deepfake
 
-**Criador:** Arthur  
+**Criador:** Arthur
 **Atores:** Gabriel Souza (Entusiasta de tecnologia)
 
 Gabriel Souza recebeu, em um grupo de mensagens, uma imagem que supostamente mostrava um político local envolvido em um crime ocorrido recentemente em sua cidade. Desconfiado da veracidade da notícia, decidiu verificar a autenticidade da foto antes de repassá-la.
@@ -19,7 +19,7 @@ Alguns dias depois, Gabriel começou a receber inúmeros spams em seu e-mail, a 
 
 ### Credibilidade em risco por falta de acesso a ferramentas acessíveis
 
-**Criador:** Cayque  
+**Criador:** Cayque
 **Atores:** Rafael Oliveira (Estagiário em jornalismo)
 
 Rafael Oliveira, jornalista responsável por apurar acontecimentos locais para publicação em um portal de notícias, encontra uma imagem em rede social que pode estar relacionada a um evento relevante em sua região. Preocupado com a veracidade da informação, ele decide investigar se a imagem pode ser um deepfake.
@@ -32,7 +32,7 @@ Sem recursos acessíveis para validar a imagem de forma confiável, Rafael acaba
 
 ### Complexidade na utilização de ferramentas para detectar deepfakes
 
-**Criador:** Yuri  
+**Criador:** Yuri
 **Atores:** Larissa Alves (Influencer Digital)
 
 Larissa Alves, influencer digital, se deparou com um deepfake de sua imagem circulando nas redes. Para comprovar que não se tratava de um fato real, buscou na internet ferramentas que pudessem ajudá-la nessa verificação.
