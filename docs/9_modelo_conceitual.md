@@ -1,9 +1,6 @@
 ## **ATIVIDADE 9 - MODELO CONCEITUAL**
 
-
 ### **1) Cenários de Interação**
-
-> **Instruções:** Destacar em **negrito** o texto alterado entre Cenário Problema e Cenário de Interação
 
 #### **Cenário 1: Verificação de Deepfake para Compartilhamento Seguro**
 
