@@ -32,8 +32,6 @@ Ana, 19 anos, estudante universitária, está no grupo de WhatsApp da família e
 
 | tópico > subtópico (diálogo) | falas e signos |
 | :---- | :---- |
-| **Login/Acesso** | U: Preciso verificar uma foto urgentemente |
-| > Acesso rápido | U: Quero começar sem cadastro<br>D: Botão "Analisar Foto Agora" visível na página inicial |
 | **Upload da Imagem** | U: Como envio a foto? |
 | > Arrastar e soltar | D: Área de upload com texto "Arraste sua foto aqui ou clique para selecionar"<br>U: *arrasta a foto do político* |
 | > Validação | D: Ícone de verificação ✓ "Arquivo aceito: foto_politico.jpg (2.3 MB)" |
@@ -49,7 +47,7 @@ Ana, 19 anos, estudante universitária, está no grupo de WhatsApp da família e
 ### **3) Mapa de Objetivos**
 #### **Mapa de Objetivos - Persona: Maria (Jornalista)**
 
-<img width="1431" height="946" alt="image" src="https://github.com/user-attachments/assets/87b518a4-d80e-4255-a62b-6674718ed1dd" />
+<img width="1431" height="946" alt="image" src="<img width="1431" height="638" alt="Sem título" src="https://github.com/user-attachments/assets/1c4f2396-3d1f-4ff9-bcba-84a3584ad8ca" />"/>
 
 ## **4) Esquema Conceitual de Signos**
 
@@ -66,10 +64,5 @@ Ana, 19 anos, estudante universitária, está no grupo de WhatsApp da família e
 | **Relatório (R)** | botão baixar relatório | sistema | ação de download | botão | habilitado apenas após análise concluída | desabilitado | PP: só habilita após resultado | — |
 | **Relatório (R)** | formato do relatório | usuário | tipo de arquivo para download | seleção (PDF/TXT) | apenas PDF e TXT | PDF | — | — |
 | **Relatório (R)** | link de compartilhamento | sistema | URL para compartilhar resultado | texto (URL) | gerado automaticamente | — | — | RA: "Erro ao gerar link. Tente novamente" |
-| **Conta e Histórico (C)** | e-mail | usuário | identificação para login | texto (e-mail) | formato válido de e-mail | — | PP: validação de formato | RA: "E-mail inválido. Exemplo: usuario@email.com" |
-| **Conta e Histórico (C)** | senha | usuário | credencial de acesso | texto | mínimo 8 caracteres, 1 letra, 1 número | — | PP: requisitos de senha forte | RA: "Senha deve ter no mínimo 8 caracteres" |
-| **Conta e Histórico (C)** | histórico de análises | sistema | lista de análises anteriores | lista | vazio para usuários sem cadastro | vazio | — | — |
 | **Conteúdo Educativo (E)** | vídeo educativo | sistema | material didático em vídeo | vídeo (MP4) | duração máx 5 minutos | — | — | RA: "Erro ao carregar vídeo. Recarregue a página" |
 | **Conteúdo Educativo (E)** | artigo | sistema | texto explicativo sobre deepfakes | texto/HTML | — | — | — | — |
-| **Conteúdo Educativo (E)** | quiz | sistema | perguntas interativas | formulário | mínimo 5 perguntas | — | — | — |
-| **Conteúdo Educativo (E)** | pontuação do quiz | sistema | resultado do quiz | numérico (0-100%) | calculado automaticamente | 0% | — | — |
