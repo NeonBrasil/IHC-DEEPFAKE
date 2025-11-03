@@ -119,19 +119,15 @@ Esta funcionalidade permite que usuários façam upload de um arquivo de imagem 
 GOAL 0: Verificar se a imagem é um deepfake
 
     GOAL 1: Preparar arquivo de imagem
-        METHOD 1.A: Preparação sequencial do arquivo
-          (SEL. RULE: sempre use este método - procedimento padrão obrigatório)
-          OP. 1.A.1: Localizar arquivo no dispositivo
-          OP. 1.A.2: Verificar formato compatível (JPG, PNG)
-          OP. 1.A.3: Confirmar tamanho do arquivo (máx. 10MB)
-          OP. 1.A.4: Verificar se arquivo está pronto para upload
+        OP. 1.A.1: Localizar arquivo no dispositivo
+        OP. 1.A.2: Verificar formato compatível (JPG, PNG)
+        OP. 1.A.3: Confirmar tamanho do arquivo (máx. 10MB)
+        OP. 1.A.4: Verificar se arquivo está pronto para upload
 
     GOAL 2: Acessar sistema de upload
-        METHOD 2.A: Acesso ao detector
-          (SEL. RULE: sempre use este método - caminho único de acesso)
-          OP. 2.A.1: Navegar para seção "Detector"
-          OP. 2.A.2: Clicar em "Analisar Imagem"
-          OP. 2.A.3: Verificar acesso à interface de upload
+        OP. 2.A.1: Navegar para seção "Detector"
+        OP. 2.A.2: Clicar em "Analisar Imagem"
+        OP. 2.A.3: Verificar acesso à interface de upload
 
     GOAL 3: Realizar upload do arquivo
         METHOD 3.A: Upload por seleção manual
@@ -148,20 +144,16 @@ GOAL 0: Verificar se a imagem é um deepfake
           OP. 3.B.3: Verificar que imagem foi carregada corretamente
 
       GOAL 4: Executar análise <br>
-        METHOD 4.A: Processar detecção
-          (SEL. RULE: sempre use este método - procedimento único de análise)
-          OP. 4.A.1: Clicar em "Iniciar Análise"
-          OP. 4.A.2: Acompanhar barra de progresso
-          OP. 4.A.3: Aguardar processamento completo
-          OP. 4.A.4: Verificar conclusão da análise
+        OP. 4.A.1: Clicar em "Iniciar Análise"
+        OP. 4.A.2: Acompanhar barra de progresso
+        OP. 4.A.3: Aguardar processamento completo
+        OP. 4.A.4: Verificar conclusão da análise
 
     GOAL 5: Visualizar e interpretar resultado <br>
-        METHOD 5.A: Interpretação completa dos resultados
-          (SEL. RULE: sempre use este método - visualização padrão de resultados)
-          OP. 5.A.1: Analisar pontuação de autenticidade (0% - 100%)
-          OP. 5.A.2: Examinar indicadores visuais da imagem
-          OP. 5.A.3: Baixar relatório
-          OP. 5.A.4: Verificar compreensão do resultado obtido
+        OP. 5.A.1: Analisar pontuação de autenticidade (0% - 100%)
+        OP. 5.A.2: Examinar indicadores visuais da imagem
+        OP. 5.A.3: Baixar relatório
+        OP. 5.A.4: Verificar compreensão do resultado obtido
 ```
 ---
 ## **2) GOMS (Goals, Operators, Methods, Selection Rules)**
@@ -180,7 +172,8 @@ GOAL 0: Permitir compartilhar análises de imagens possivelmente deepfakes
     METHOD 1.A: Visualizar resultado da análise
       (SEL. RULE: usuário deseja revisar análise antes de compartilhar)
       OP. 1.A.1: Visualizar resultado da análise por meio da interface
-      OP. 1.A.2: Verificar informações do resultado
+      OP. 1.A.2: Pressionar o botão de compartilhar análise
+      OP. 1.A.3: Verificar informações do resultado
 
     METHOD 1.B: Acionar botão de compartilhamento
       (SEL. RULE: usuário já verificou análise e deseja compartilhar)
