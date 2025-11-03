@@ -119,15 +119,15 @@ Esta funcionalidade permite que usuários façam upload de um arquivo de imagem 
 GOAL 0: Verificar se a imagem é um deepfake
 
     GOAL 1: Preparar arquivo de imagem
-        OP. 1.A.1: Localizar arquivo no dispositivo
-        OP. 1.A.2: Verificar formato compatível (JPG, PNG)
-        OP. 1.A.3: Confirmar tamanho do arquivo (máx. 10MB)
-        OP. 1.A.4: Verificar se arquivo está pronto para upload
+        OP. 1.1: Localizar arquivo no dispositivo
+        OP. 1.2: Verificar formato compatível (JPG, PNG)
+        OP. 1.3: Confirmar tamanho do arquivo (máx. 10MB)
+        OP. 1.4: Verificar se arquivo está pronto para upload
 
     GOAL 2: Acessar sistema de upload
-        OP. 2.A.1: Navegar para seção "Detector"
-        OP. 2.A.2: Clicar em "Analisar Imagem"
-        OP. 2.A.3: Verificar acesso à interface de upload
+        OP. 2.1: Navegar para seção "Detector"
+        OP. 2.2: Clicar em "Analisar Imagem"
+        OP. 2.3: Verificar acesso à interface de upload
 
     GOAL 3: Realizar upload do arquivo
         METHOD 3.A: Upload por seleção manual
@@ -144,16 +144,16 @@ GOAL 0: Verificar se a imagem é um deepfake
           OP. 3.B.3: Verificar que imagem foi carregada corretamente
 
       GOAL 4: Executar análise <br>
-        OP. 4.A.1: Clicar em "Iniciar Análise"
-        OP. 4.A.2: Acompanhar barra de progresso
-        OP. 4.A.3: Aguardar processamento completo
-        OP. 4.A.4: Verificar conclusão da análise
+        OP. 4.1: Clicar em "Iniciar Análise"
+        OP. 4.2: Acompanhar barra de progresso
+        OP. 4.3: Aguardar processamento completo
+        OP. 4.4: Verificar conclusão da análise
 
     GOAL 5: Visualizar e interpretar resultado <br>
-        OP. 5.A.1: Analisar pontuação de autenticidade (0% - 100%)
-        OP. 5.A.2: Examinar indicadores visuais da imagem
-        OP. 5.A.3: Baixar relatório
-        OP. 5.A.4: Verificar compreensão do resultado obtido
+        OP. 5.1: Analisar pontuação de autenticidade (0% - 100%)
+        OP. 5.2: Examinar indicadores visuais da imagem
+        OP. 5.3: Baixar relatório
+        OP. 5.4: Verificar compreensão do resultado obtido
 ```
 ---
 ## **2) GOMS (Goals, Operators, Methods, Selection Rules)**
@@ -169,77 +169,48 @@ Esta funcionalidade permite que usuários compartilhem resultados de análises d
 GOAL 0: Permitir compartilhar análises de imagens possivelmente deepfakes
 
   GOAL 1: Selecionar resultado a ser compartilhado
-    METHOD 1.A: Visualizar resultado da análise
-      (SEL. RULE: usuário deseja revisar análise antes de compartilhar)
-      OP. 1.A.1: Visualizar resultado da análise por meio da interface
-      OP. 1.A.2: Pressionar o botão de compartilhar análise
-      OP. 1.A.3: Verificar informações do resultado
-
-    METHOD 1.B: Acionar botão de compartilhamento
-      (SEL. RULE: usuário já verificou análise e deseja compartilhar)
-      OP. 1.B.1: Pressionar o botão de compartilhar análise
-      OP. 1.B.2: Verificar que opções de compartilhamento foram abertas
+      OP. 1.1: Visualizar resultado da análise por meio da interface
+      OP. 1.2: Pressionar o botão de compartilhar análise
+      OP. 1.3: Verificar icones de apps para compartilhamento
 
   GOAL 2: Selecionar o canal de compartilhamento
     METHOD 2.A: Compartilhar em rede social
       (SEL. RULE: usuário deseja compartilhar publicamente ou com amigos em redes sociais)
-      GOAL 2.A.1: Selecionar plataforma de rede social
-        METHOD 2.A.1.A: Compartilhar via Instagram ou Facebook
-          (SEL. RULE: usuário prefere redes sociais visuais)
-          OP. 2.A.1.A.1: Selecionar um ícone de alguma rede social (instagram, facebook, X)
-          OP. 2.A.1.A.2: Verificar redirecionamento para plataforma
+          OP. 2.A.1: Selecionar um ícone de alguma rede social (instagram, facebook, X)
+          OP. 2.A.2: Verificar redirecionamento para plataforma
 
-        METHOD 2.A.1.B: Compartilhar via aplicativo de mensagem
+    METHOD 2.B: Compartilhar via aplicativo de mensagem
           (SEL. RULE: usuário prefere mensageiro instantâneo)
-          OP. 2.A.1.B.1: Selecionar um ícone de algum aplicativo de mensagens (whatsapp, telegram)
-          OP. 2.A.1.B.2: Verificar abertura do aplicativo
+          OP. 2.B.1: Selecionar um ícone de algum aplicativo de mensagens (whatsapp, telegram)
+          OP. 2.B.2: Verificar abertura do aplicativo
 
-    METHOD 2.B: Compartilhar via email
+    METHOD 2.C: Compartilhar via email
       (SEL. RULE: usuário deseja compartilhamento formal ou com múltiplos destinatários)
-      GOAL 2.B.1: Selecionar plataforma de email
-        METHOD 2.B.1.A: Usar webmail
-          (SEL. RULE: usuário utiliza email baseado em web)
-          OP. 2.B.1.A.1: Selecionar um ícone de alguma plataforma de email (outlook, gmail)
-          OP. 2.B.1.A.2: Verificar abertura do cliente de email
+          OP. 2.C.1: Selecionar um ícone de alguma plataforma de email (outlook, gmail)
+          OP. 2.C.2: Verificar abertura do cliente de email
 
   GOAL 3: Configurar canal de compartilhamento
     METHOD 3.A: Configurar envio para redes sociais
       (SEL. RULE: canal selecionado foi rede social)
-      OP. 3.A.1: Configurar envio no formato de redes sociais
-      OP. 3.A.2: Inserir link gerado pela plataforma
-      OP. 3.A.3: Adicionar comentário opcional
-      OP. 3.A.4: Verificar configuração do compartilhamento
+      OP. 3.A.1: Inserir link gerado pela plataforma
+      OP. 3.A.2: Adicionar comentário opcional
+      OP. 3.A.3: Verificar configuração do compartilhamento
 
-    METHOD 3.B: Configurar envio para mensageiros
+    METHOD 3.B: Configurar envio para aplicativo de mensagem.
       (SEL. RULE: canal selecionado foi aplicativo de mensagem)
-      OP. 3.B.1: Configurar envio para aplicativos de mensagem
-      GOAL 3.B.2: Selecionar destinatário
-        METHOD 3.B.2.A: Enviar para contato individual
-          (SEL. RULE: usuário deseja compartilhar com pessoa específica)
-          OP. 3.B.2.A.1: Selecionar contato ou grupo
-          OP. 3.B.2.A.2: Verificar seleção do destinatário
-
-        METHOD 3.B.2.B: Enviar para múltiplos contatos
-          (SEL. RULE: usuário deseja compartilhar com várias pessoas)
-          OP. 3.B.2.B.1: Adicionar texto opcional
-          OP. 3.B.2.B.2: Verificar mensagem configurada
-      OP. 3.B.3: Inserir link gerado pela plataforma
-      OP. 3.B.4: Verificar configuração completa do envio
+      OP. 3.B.1: Selecionar contato ou grupo
+      OP. 3.B.2: Inserir link gerado pela plataforma
+      OP. 3.B.3: Adicionar texto opcional
+      OP. 3.B.4: Verificar seleção do destinatário
 
     METHOD 3.C: Configurar envio para email
       (SEL. RULE: canal selecionado foi email)
-      OP. 3.C.1: Configurar envio para email
-      OP. 3.C.2: Inserir destinatário(s)
+      OP. 3.C.1: Inserir destinatário(s)
+      OP. 3.C.2: Adicionar mensagem ao email
       OP. 3.C.3: Inserir link da plataforma
-      OP. 3.C.4: Adicionar mensagem ao email
-      OP. 3.C.5: Verificar configuração do email
+      OP. 3.C.4: Verificar configuração do email
 
-  GOAL 4: Enviar compartilhamento
-    METHOD 4.A: Confirmar e enviar
-      (SEL. RULE: sempre use este método - ação final obrigatória)
-      OP. 4.A.1: Confirmar envio do compartilhamento
-      OP. 4.A.2: Aguardar confirmação de envio
-      OP. 4.A.3: Verificar que compartilhamento foi realizado com sucesso
+  OP. 4: Enviar compartilhamento
 ```
 ---
 ## **2) GOMS (Goals, Operators, Methods, Selection Rules)**
@@ -255,11 +226,9 @@ Apresenta o processo de aprendizado sobre deepfakes, guiando o usuário desde o 
 GOAL 0: Aprender mais sobre deepfakes
 
   GOAL 1: Acessar a página educativa
-    METHOD 1.A: Navegação pela interface
-      (SEL. RULE: sempre use este método - acesso obrigatório à página)
-      OP. 1.A.1: Localizar o menu principal
-      OP. 1.A.2: Selecionar o botão "Educação"
-      OP. 1.A.3: Verificar carregamento da página educativa
+      OP. 1.1: Localizar o menu principal
+      OP. 1.2: Selecionar o botão "Educação"
+      OP. 1.3: Verificar carregamento da página educativa
 
   GOAL 2: Ler o conteúdo introdutório
     METHOD 2.A: Leitura da definição de deepfake
@@ -282,13 +251,7 @@ GOAL 0: Aprender mais sobre deepfakes
       OP. 2.D.1: Ler sobre o impacto social dos deepfakes
       OP. 2.D.2: Verificar compreensão das implicações sociais
 
-  GOAL 3: Assistir ao vídeo explicativo sobre deepfakes
-    METHOD 3.A: Reprodução do vídeo educativo
-      (SEL. RULE: sempre use este método - conteúdo complementar em vídeo)
-      OP. 3.A.1: Localizar vídeo explicativo na página
-      OP. 3.A.2: Iniciar reprodução do vídeo
-      OP. 3.A.3: Assistir ao conteúdo do vídeo
-      OP. 3.A.4: Verificar compreensão do conteúdo apresentado
+  OP. 3: Assistir ao vídeo explicativo sobre deepfakes
 ```
 
 ---
