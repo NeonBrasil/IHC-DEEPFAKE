@@ -286,53 +286,6 @@ Esta funcionalidade permite que usuários compartilhem resultados de análises d
 Apresenta o processo de aprendizado sobre deepfakes, guiando o usuário desde o acesso à página educativa até a compreensão do conteúdo e do vídeo explicativo.
 
 ### Diagrama CTT:
-
-```
-Aprender mais sobre deepfakes
-|
-[>> (ativação sequencial)
-|
-+-- Acessar a página educativa (abstrata)
-|   |
-|   [>> (ativação sequencial)
-|   |
-|   +-- Localizar menu principal (usuário)
-|   +-- Selecionar botão "Educação" (interativa)
-|   +-- Aguardar carregamento (sistema)
-|
-+-- Ler conteúdo introdutório (abstrata)
-|   |
-|   |=| (tarefas independentes - ordem livre)
-|   |
-|   +-- Ler definição de deepfake (usuário)
-|   +-- Visualizar exemplos ilustrativos (usuário)
-|   +-- Compreender diferença entre imagens reais e manipuladas (usuário)
-|   +-- Ler sobre impacto social dos deepfakes (usuário)
-|
-+-- Assistir ao vídeo explicativo sobre deepfakes (abstrata)
-    |
-    [>> (ativação sequencial)
-    |
-    +-- Localizar vídeo explicativo (usuário)
-    +-- Iniciar reprodução (interativa)
-    +-- Assistir conteúdo do vídeo (usuário)
-    ||| (concorrente com)
-    +-- Reproduzir vídeo (sistema)
-```
+![CTTAprender](https://github.com/user-attachments/assets/a384a4b6-8f85-48be-865e-b9f8b4388596)
 
 ---
-
-### Legenda CTT:
-- **[>>]** = Ativação sequencial (T1 >> T2)
-- **[]** = Escolha/alternativa (T1 [] T2)
-- **|||** = Tarefas concorrentes (T1 ||| T2)
-- **|=|** = Tarefas independentes (T1 |=| T2)
-- **[>]** = Desativação (T1 [> T2)
-- **|>** = Suspensão/retomada (T1 |> T2)
-
-### Tipos de Tarefas:
-
-- **(usuário)** = Tarefa do usuário (fora do sistema)
-- **(sistema)** = Tarefa do sistema
-- **(interativa)** = Tarefa interativa (diálogo usuário-sistema)
-- **(abstrata)** = Tarefa abstrata (composição de tarefas)
