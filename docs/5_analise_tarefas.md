@@ -264,65 +264,7 @@ GOAL 0: Aprender mais sobre deepfakes
 Esta funcionalidade permite que usuários façam upload de um arquivo de imagem para verificar se ela contém deepfakes. O sistema processa a imagem utilizando algoritmos de IA (EfficientNet-B0) e retorna um resultado com indicadores de confiabilidade.
 
 ### Diagrama CTT:
-
-```
-Verificar se a imagem é um deepfake
-|
-[>> (ativação sequencial)
-|
-+-- Preparar arquivo de imagem
-|   |
-|   [>> (ativação sequencial)
-|   |
-|   +-- Localizar arquivo no dispositivo (usuário)
-|   +-- Verificar formato compatível (usuário)
-|   +-- Confirmar tamanho do arquivo (usuário)
-|
-+-- Acessar sistema de upload
-|   |
-|   [>> (ativação sequencial)
-|   |
-|   +-- Navegar para seção "Detector" (interativa)
-|   +-- Clicar em "Analisar Imagem" (interativa)
-|
-+-- Realizar upload do arquivo
-|   |
-|   [>> (ativação sequencial)
-|   |
-|   +-- Selecionar método de upload (abstrata)
-|   |   |
-|   |   [] (escolha)
-|   |   |
-|   |   +-- Upload por seleção manual (interativa)
-|   |   |   |
-|   |   |   [>> (ativação sequencial)
-|   |   |   |
-|   |   |   +-- Clicar em "Selecionar arquivo" (interativa)
-|   |   |   +-- Confirmar seleção (interativa)
-|   |   |
-|   |   +-- Upload por arrastar (interativa)
-|   |       |
-|   |       +-- Arrastar arquivo (interativa)
-|   |
-|   +-- Visualizar prévia da imagem (sistema)
-|
-+-- Executar análise
-|   |
-|   [>> (ativação sequencial)
-|   |
-|   +-- Clicar em "Iniciar Análise" (interativa)
-|   +-- Acompanhar progresso (usuário)
-|   ||| (concorrente com)
-|   +-- Processar análise (sistema)
-|
-+-- Visualizar e interpretar resultado
-    |
-    [>> (ativação sequencial)
-    |
-    +-- Analisar pontuação de autenticidade (usuário)
-    +-- Examinar indicadores visuais (usuário)
-    +-- Baixar relatório (interativa)
-```
+![CTTUploadImagem](https://github.com/user-attachments/assets/3aee57e9-545b-4141-b216-9dfeb4e728e6)
 
 ---
 ## **3) CTT (ConcurTaskTrees)**
