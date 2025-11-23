@@ -1,7 +1,7 @@
 Pagina Inicial:
 <br>
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/6d291091-ed16-4ea2-84ec-ad61582d58ca" />
-<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/c375fb0d-6092-4130-ab47-fa25894c111a" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/75c8af1d-9ce1-49a5-bbdb-92713319ff40" />
 
 ---
 
@@ -24,6 +24,7 @@ Compartilhamento: <br>
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/3135b45a-89a7-4db8-8c71-bc37e3fc9f49" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/5352cb82-567d-4b51-8d96-985093a4878a" />
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/8d3d0247-842b-47a3-8c81-4e8fd35e045a" />
+
 
 
 
