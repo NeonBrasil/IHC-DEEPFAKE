@@ -82,21 +82,36 @@ Ao enviar a imagem, esperava um retorno rápido e claro, de preferência visual 
 
 ### **2) Design Centrado na Comunicação**
 
-#### **Nome do Cenário: Verificação de Deepfake para Compartilhamento Seguro (Maria)**
+#### **Nome do Cenário: Envio de imagem para análise de possível deepfake**
 
 | tópico > subtópico (diálogo) | falas e signos |
 | :---- | :---- |
-| **Upload da Imagem** | U: Como envio a foto? |
-| > Arrastar e soltar | D: Área de upload com texto "Arraste sua foto aqui ou clique para selecionar"<br>U: *arrasta a foto do político* |
-| > Validação | D: Ícone de verificação ✓ "Arquivo aceito: foto_politico.jpg (2.3 MB)" |
-| **Processamento** | U: Quanto tempo vai demorar? |
-| > Feedback de progresso | D: Barra de progresso "Analisando imagem... 45%"<br>D: Animação de ícone de lupa sobre a imagem |
-| **Resultado da Análise** | U: A foto é real ou fake? |
-| > Exibição do resultado | D: Card destacado em vermelho: "⚠️ Esta imagem tem 89% de probabilidade de ser manipulada (deepfake)"<br>D: Mapa de calor sobreposto à imagem destacando áreas suspeitas (rosto, olhos, boca) |
-| > Detalhes técnicos | U: Por que foi considerada fake?<br>D: Lista de inconsistências detectadas: "Iluminação irregular no rosto", "Bordas dos olhos artificiais", "Textura de pele sintética" |
-| **Ações Pós-Resultado** | U: Preciso de prova disso |
-| > Download de relatório | D: Botão "Baixar Relatório Técnico (PDF)"<br>U: *clica e salva relatório* |
-| > Compartilhamento | D: Botão "Compartilhar Resultado" com opções de copiar link |
+| **Verificar autenticidade de conteúdo digital** | U: Preciso verificar se uma imagem que recebi é verdadeira ou manipulada.|
+| > Acessar o sistema | D: Bem-vindo! Você tem três opções na tela inicial: [EDUCACIONAL] para aprender, [DETECTOR] para analisar conteúdo, e [COMPARTILHAR] para ver resultados. Qual você deseja? |
+| > Iniciar detecção | U: Quero analisar uma imagem que recebi no grupo de mensagens. <br> D: Acesse o Detector. Você pode fazer upload da imagem aqui. Arraste o arquivo ou clique em [Upload]. <br> U: [Faz upload da foto do político] <br> D: Imagem recebida! [Ícone de carregamento] Gerando análise... Aguarde. |
+| > Visualizar resultado da análise | D: Análise concluída! Resultado: [REAL/FAKE], Confiabilidade: [X%]. Veja os detalhes técnicos: [Indicador 1], [Imagem enviada], [Indicador 2].|
+
+#### **Nome do Cenário: Credibilidade em risco por falta de acesso a ferramentas acessíveis**
+
+| tópico > subtópico (diálogo) | falas e signos |
+| :---- | :---- |
+| ** Verificar autenticidade de imagem para publicação jornalística ** | U: Preciso verificar urgentemente se uma imagem que encontrei é autêntica antes de publicar no portal de notícias. | 
+| > Descobrir e acessar o sistema | D: Bem-vindo ao sistema de Detecção de Deepfakes e Conscientização Digital! Este é um serviço gratuito. Você pode escolher: [EDUCACIONAL] para aprender, [DETECTOR] para análise de conteúdo, ou [COMPARTILHAR] para ver análises anteriores.U: É gratuito? Perfeito! Vou usar o Detector. | 
+|  > Iniciar análise da imagem | U: Preciso analisar esta imagem que pode estar relacionada a um evento importante na minha região.D: Acesse o [DETECTOR]. Você pode fazer upload da sua imagem aqui. Arraste o arquivo ou clique em [Upload]. Aceitamos formatos: JPG, PNG, WEBP.U: [Faz upload da imagem do evento]D: Imagem recebida! [Ícone de carregamento] Gerando análise detalhada... Aguarde enquanto processamos os indicadores técnicos. |
+| > Examinar resultado detalhado | D: Análise concluída! Aqui está o relatório completo:• Resultado: [REAL/FAKE]• Confiabilidade: X% de acertividade• Indicadores técnicos detectados:  - [Indicador 1: Análise de iluminação]  - [Imagem enviada: destacando áreas suspeitas]  - [Indicador 2: Padrões de pixels/artefatos digitais]U: Excelente! A análise mostra que a imagem é [real/falsa] com X% de confiabilidade. O que cada indicador significa especificamente?D: [Indicador 1] analisa inconsistências de luz e sombra. [Indicador 2] detecta artefatos de manipulação digital e padrões anormais.|
+
+#### **Nome do Cenário: Complexidade na utilização de ferramentas para detectar deepfakes**
+
+| tópico > subtópico (diálogo) | falas e signos |
+| :---- | :---- |
+| ** Comprovar falsidade de deepfake para proteção da reputação **| U: Preciso urgentemente comprovar que uma imagem minha que está circulando nas redes é falsa! Isso está prejudicando minha reputação profissional. |
+| > Descobrir e acessar urgentemente a solução | D: Bem-vinda ao sistema de Detecção de Deepfakes e Conscientização Digital. Entendo sua urgência. Nossa ferramenta é simples e não exige conhecimento técnico. Você pode: [DETECTOR] para análise imediata, [EDUCAÇÃO] para aprender sobre proteção, ou [COMPARTILHAR] para acessar resultados salvos.U: Vou direto para o Detector. Preciso de provas agora! |
+| > Enviar conteúdo para análise urgente | U: Tenho essa imagem manipulada de mim. Como faço para comprovar que é falsa?D: Você pode fazer upload aqui. Arraste a imagem ou clique em [Upload]. Vou analisar rapidamente e fornecer provas visuais e técnicas.U: [Faz upload do deepfake]D: Imagem recebida! [Ícone de carregamento] Processando análise urgente... Vou gerar um relatório completo com provas que você pode usar para se defender. |
+| > Receber resultado objetivo e claro | D: Análise concluída! Resultado urgente:• VERIFICAÇÃO: Esta imagem é FAKE (Manipulada)• Confiabilidade da análise: 94% de certeza• Nível de manipulação detectado: Alto• Provas visuais:  - [Indicador 1: Áreas manipuladas destacadas em vermelho] - [Indicador 2: Artefatos digitais e inconsistências técnicas]U: Confirmado! É manipulada com 94% de certeza. Isso me dá a prova que eu precisava!D: Você pode salvar este relatório como evidência e compartilhar com sua comunidade. Deseja orientações sobre os próximos passos? | 
+| > Entender detalhes técnicos como prova | U: Sim! Preciso entender melhor essas provas para explicar para minha audiência e usar em uma possível denúncia.D: Aqui estão os detalhes das provas:• Indicador 1: Detectamos manipulação facial em 87% da área do rosto, com inconsistências em iluminação e textura de pele• Indicador 2: Identificamos 43 pontos de artefatos digitais típicos de deepfakes |
+| > Salvar provas para uso legal/público | U: Preciso salvar tudo isso como evidência! Posso usar para denunciar e me defender publicamente.D: Sim! Você tem duas opções:• [SALVAR] para armazenar no sistema e acessar depois• [ Exportar Relatório PDF] para ter um documento formal com todas as provas O PDF inclui: resultado, percentuais, imagens comparativas e explicações técnicas.U: Vou fazer os dois! Salvar no sistema E baixar o PDF.D: ✓ Análise salva com sucesso! ✓ Relatório PDF gerado e pronto para download. Você pode usar esse documento em denúncias oficiais ou posts públicos.| 
+
+
 
 ### **3) Mapa de Objetivos**
 #### **Mapa de Objetivos - Persona: Maria (Jornalista)**
