@@ -3,6 +3,7 @@
 
 Pagina Inicial + Menu
 
+
 <img width="1280" height="720" alt="Pagina Inicial (1)" src="https://github.com/user-attachments/assets/d22876f0-4a1f-4bac-b61d-f87c7f394fa3" />
 <img width="240" height="240" alt="Menu" src="https://github.com/user-attachments/assets/c7ca5ce3-1bee-4f4d-bc3c-27cee0b38969" />
 
