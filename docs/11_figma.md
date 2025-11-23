@@ -3,7 +3,7 @@
 
 Pagina Inicial + Menu
 <img width="1280" height="720" alt="Pagina Inicial" src="https://github.com/user-attachments/assets/16fe63ad-db75-463c-a529-b51f22059811" />
-<img width="218" height="180" alt="Menu" src="https://github.com/user-attachments/assets/0b1f6c24-e24f-450b-ac59-2d256f6d66db" />
+<img width="240" height="240" alt="Menu" src="https://github.com/user-attachments/assets/c7ca5ce3-1bee-4f4d-bc3c-27cee0b38969" />
 
 ---
 Educação
