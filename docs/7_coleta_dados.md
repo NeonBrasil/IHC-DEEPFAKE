@@ -60,9 +60,6 @@
 - Não divulgar imagens ou informações pessoais dos participantes
 
 ---
-Boa! Vou arrumar os dois:
-
----
 
 ## **1. Entrevista**
 
