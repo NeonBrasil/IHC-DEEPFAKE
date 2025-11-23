@@ -29,7 +29,7 @@ Detector 3/3:
 <br>
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f64c441b-3864-4b57-9798-8bd5b3a69538" />
 
-Compartilhamento 1/2:
+Compartilhamento 1/5:
 <br>
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/45c9a583-7ff7-4d0b-8762-0949560c547f" />
 
@@ -52,4 +52,5 @@ Compartilhamento 5/5:
 Navbar:
 <br>
 <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/c375fb0d-6092-4130-ab47-fa25894c111a" />
+
 
