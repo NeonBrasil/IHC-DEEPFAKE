@@ -2,7 +2,8 @@
 [Link para o FIGMA](https://www.figma.com/proto/YhVTegpXUlKavNp29syixe/IHC?node-id=1-2&p=f&t=IORiSF8ZwBeqqD4L-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2)
 
 Pagina Inicial + Menu
-<img width="1280" height="720" alt="Pagina Inicial" src="https://github.com/user-attachments/assets/16fe63ad-db75-463c-a529-b51f22059811" />
+
+<img width="1280" height="720" alt="Pagina Inicial (1)" src="https://github.com/user-attachments/assets/d22876f0-4a1f-4bac-b61d-f87c7f394fa3" />
 <img width="240" height="240" alt="Menu" src="https://github.com/user-attachments/assets/c7ca5ce3-1bee-4f4d-bc3c-27cee0b38969" />
 
 ---
