@@ -114,9 +114,9 @@ Ao enviar a imagem, esperava um retorno rápido e claro, de preferência visual 
 
 
 ### **3) Mapa de Objetivos**
-#### **Mapa de Objetivos - Persona: Maria (Jornalista)**
+#### **Mapa de Objetivos**
 
-<img width="1431" height="946" alt="image" src="<img width="1431" height="638" alt="Sem título" src="https://github.com/user-attachments/assets/1c4f2396-3d1f-4ff9-bcba-84a3584ad8ca" />"/>
+<img width="400" height="400" alt="Sem título" src="https://github.com/user-attachments/assets/e90a7aba-9eea-4108-944f-6b973635334a" />
 
 ## **4) Esquema Conceitual de Signos**
 
