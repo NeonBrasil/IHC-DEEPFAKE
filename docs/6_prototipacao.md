@@ -1,9 +1,9 @@
 Protótipo:
-<img width="3793" height="4164" alt="image" src="https://github.com/user-attachments/assets/0110c572-82e9-49e6-900c-09572117dff5" />
+<img width="3793" height="4164" alt="image" src="https://github.com/user-attachments/assets/596e24e4-69c4-4efc-9328-5fea446e2f47" />
 
 Pagina Inicial:
 <br>
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/af7760c9-793b-4e38-acb7-3b86ec68dfd9" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/6d291091-ed16-4ea2-84ec-ad61582d58ca" />
 
 Educação 1/3:
 <br>
@@ -33,10 +33,23 @@ Compartilhamento 1/2:
 <br>
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/45c9a583-7ff7-4d0b-8762-0949560c547f" />
 
-Compartilhamento 2/2:
+Compartilhamento 2/5:
 <br>
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/e094d1ad-c287-4377-b0d8-57a9e37e3c5c" />
+
+Compartilhamento 3/5:
+<br>
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/7b80bd3b-ebf0-4572-9da3-599470d41313" />
+
+Compartilhamento 4/5:
+<br>
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f45181f0-0e5d-4ee2-ac15-25996a859e97" />
+
+Compartilhamento 5/5:
+<br>
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/695d1114-6a90-4d15-bb19-142b0c284788" />
 
 Navbar:
 <br>
 <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/c375fb0d-6092-4130-ab47-fa25894c111a" />
+
