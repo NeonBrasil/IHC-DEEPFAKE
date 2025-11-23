@@ -4,7 +4,7 @@
 
 #### **Cenário 1: Envio de imagem para análise de possível deepfake**
 
-**Cenário Problema:**
+**Cenário Problema:**<br>
 Gabriel Souza é um jovem que compartilha vídeos e memes nas redes sociais, estuda programação por conta própria e acompanha conteúdos sobre tecnologia e manipulação digital no YouTube e Instagram [6]. Sua motivação para se aprofundar no tema vem de preocupações pessoais: amigos e familiares frequentemente comentam sobre fake news, e ele deseja se sentir mais preparado para identificar conteúdos manipulados [9]. Apesar desse interesse, ainda não possui domínio técnico aprofundado sobre como deepfakes funcionam, o que lhe gera insegurança [4].
 
 Certo dia, Gabriel recebeu em um grupo de mensagens uma imagem que supostamente mostrava um político local envolvido em um crime ocorrido recentemente em sua cidade [5]. Desconfiado da veracidade da notícia, decidiu verificar a autenticidade da foto antes de repassá-la [1,9].
@@ -15,7 +15,7 @@ Cadastro concluído, o sistema confirmou a criação da conta exibindo uma mensa
 
 Alguns dias depois, Gabriel começou a receber inúmeros spams em seu e-mail, a maioria oferecendo serviços de detecção de deepfakes, levantando suspeitas sobre o uso e o compartilhamento indevido de seus dados pessoais. Para realizar todo esse processo, utilizou apenas seu computador e conexão com a internet, não necessitando de equipamentos adicionais além de um navegador [3].
 
-**Cenário de Interação:**
+**Cenário de Interação:** <br>
 Gabriel Souza é um jovem que compartilha vídeos e memes nas redes sociais, estuda programação por conta própria e acompanha conteúdos sobre tecnologia e manipulação digital no YouTube e Instagram [6]. Sua motivação para se aprofundar no tema vem de preocupações pessoais: amigos e familiares frequentemente comentam sobre fake news, e ele deseja se sentir mais preparado para identificar conteúdos manipulados [9]. Apesar desse interesse, ainda não possui domínio técnico aprofundado sobre como deepfakes funcionam, o que lhe gera insegurança [4].
 
 Certo dia, Gabriel recebeu em um grupo de mensagens uma imagem que supostamente mostrava um político local envolvido em um crime ocorrido recentemente em sua cidade [5]. Desconfiado da veracidade da notícia, decidiu verificar a autenticidade da foto antes de repassá-la [1,9].
@@ -30,7 +30,7 @@ Para realizar todo esse processo, utilizou apenas seu computador e conexão com 
 
 #### **Cenário 2: Credibilidade em risco por falta de acesso a ferramentas acessíveis**
 
-**Cenário Problema:**
+**Cenário Problema:** <br>
 Rafael Oliveira é um jornalista em formação, que estuda jornalismo e busca fontes confiáveis para seus trabalhos [6]. Ele comenta sobre fake news com colegas de faculdade, compartilha podcasts investigativos e notícias nas redes sociais, e acompanha conteúdos sobre política, mídia e tecnologia no YouTube, além de postagens sobre manipulação digital no Twitter/X [6]. Rafael ouve professores falando sobre ética jornalística, podcasts sobre investigações e escândalos digitais, e comentários de amigos sobre vídeos suspeitos e deepfakes [6].
 
 Como futuro jornalista, ele se preocupa com sua credibilidade e quer entender como identificar e combater fake news [1,6]. No entanto, ele ainda se sente inseguro, pois não domina o tema dos deepfakes e não possui conhecimento técnico aprofundado sobre como eles funcionam [3].
@@ -45,7 +45,7 @@ Ele tenta solicitar o investimento ao seu chefe para adquirir a assinatura, mas 
 
 Durante todo o processo, Rafael utilizou apenas seu computador e conexão com a internet, não precisou de equipamentos especializados além de um navegador [5].
 
-**Cenário de Interação:**
+**Cenário de Interação:** <br>
 Rafael Oliveira é um jornalista em formação, que estuda jornalismo e busca fontes confiáveis para seus trabalhos [6]. Ele comenta sobre fake news com colegas de faculdade, compartilha podcasts investigativos e notícias nas redes sociais, e acompanha conteúdos sobre política, mídia e tecnologia no YouTube, além de postagens sobre manipulação digital no Twitter/X [6]. Rafael ouve professores falando sobre ética jornalística, podcasts sobre investigações e escândalos digitais, e comentários de amigos sobre vídeos suspeitos e deepfakes [6].
 
 Como futuro jornalista, ele se preocupa com sua credibilidade e quer entender como identificar e combater fake news [1,6]. No entanto, ele ainda se sente inseguro, pois não domina o tema dos deepfakes e não possui conhecimento técnico aprofundado sobre como eles funcionam [3].
@@ -60,7 +60,7 @@ Durante todo o processo, Rafael utilizou apenas seu computador e conexão com a 
 
 #### **Cenário 3: Complexidade na utilização de ferramentas para detectar deepfakes**
 
-**Cenário Problema:**
+**Cenário Problema:** <br>
 Larissa Alves, influencer digital de 23 anos, se deparou com um deepfake de sua imagem circulando nas redes sociais, trazendo preocupação com sua reputação profissional. Diante dessa situação, sua principal ação desejada era comprovar a falsidade do material para resguardar sua imagem [1]. Além de confirmar que o conteúdo era manipulado, também buscava obter provas que pudessem ser utilizadas em uma possível denúncia ou para se defender publicamente [2].
 
 Ao pesquisar soluções na internet, encontrou ferramentas em repositórios de código aberto que exigiam conhecimento técnico avançado, como instalação de versões específicas do Python, configuração de ambientes de desenvolvimento e execução de scripts em linha de comando [3]. Larissa não compreendia totalmente os termos técnicos utilizados, o que aumentava sua frustração [4]. Tentou realizar os procedimentos sozinha, sem apoio de terceiros [5], e iniciou o processo em seu notebook, embora também utilizasse o smartphone para acompanhar o impacto que o conteúdo estava gerando nas redes sociais [6].
@@ -71,7 +71,7 @@ Seu estado emocional era de ansiedade e urgência, motivado pelo medo de danos i
 
 Ao enviar a imagem, esperava um retorno rápido e claro, de preferência visual ou numérico (porcentagem de autenticidade) que confirmasse a manipulação [10]. Mais do que um resultado técnico, Larissa também gostaria de receber orientações sobre como agir diante da descoberta, como denunciar o conteúdo ou comunicar sua comunidade [11]. Caso a ferramenta entregasse uma resposta objetiva, ela se sentiria aliviada, mais segura e confiante para enfrentar a situação [12]. Assim, a solução ideal não deveria apenas resolver o problema imediato, mas também empoderar a autora, fornecendo informações e recursos para lidar com casos semelhantes no futuro [13].
 
-**Cenário de Interação:**
+**Cenário de Interação:** <br>
 Larissa Alves, influencer digital de 23 anos, se deparou com um deepfake de sua imagem circulando nas redes sociais, trazendo preocupação com sua reputação profissional. Diante dessa situação, sua principal ação desejada era comprovar a falsidade do material para resguardar sua imagem [1]. Além de confirmar que o conteúdo era manipulado, também buscava obter provas que pudessem ser utilizadas em uma possível denúncia ou para se defender publicamente [2].
 
 Ao pesquisar soluções na internet, encontrou o site 'Detecção de Deepfakes e Conscientização Digital' que não exigia conhecimento técnico avançado [3]. Larissa realizou os procedimentos sozinha, sem apoio de terceiros [5], e iniciou o processo em seu notebook, embora também utilizasse o smartphone para acompanhar o impacto que o conteúdo estava gerando nas redes sociais [6].
