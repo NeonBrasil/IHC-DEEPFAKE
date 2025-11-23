@@ -8,4 +8,5 @@
 
 **Nome do Cenário:** Educação sobre Deepfakes em Sala de Aula
 **Nome:** Yuri <br>
-<img width="290" height="401" alt="MolicCompartilhamento (1)" src="https://github.com/user-attachments/assets/2fe351d8-58f5-4a4d-90c0-53872c1a1a2a" />
+![Diagrama sem nome (2)](https://github.com/user-attachments/assets/20aa7dd6-f2e2-429a-bd16-0ec88964dfbb)
+
