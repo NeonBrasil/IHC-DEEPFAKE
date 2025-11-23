@@ -1,5 +1,5 @@
 **Protótipo Correspondente ao MOLIC**  
-(Link para o FIGMA)[https://www.figma.com/proto/YhVTegpXUlKavNp29syixe/IHC?node-id=1-2&p=f&t=IORiSF8ZwBeqqD4L-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2]
+[Link para o FIGMA](https://www.figma.com/proto/YhVTegpXUlKavNp29syixe/IHC?node-id=1-2&p=f&t=IORiSF8ZwBeqqD4L-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2)
 
 Pagina Inicial + Menu
 <img width="1280" height="720" alt="Pagina Inicial" src="https://github.com/user-attachments/assets/16fe63ad-db75-463c-a529-b51f22059811" />
