@@ -119,12 +119,14 @@ Esta funcionalidade permite que usuários façam upload de um arquivo de imagem 
 GOAL 0: Verificar se a imagem é um deepfake
 
     GOAL 1: Preparar arquivo de imagem
+       METHOD: Verificar requisitos do arquivo (Sequencial)
         OP. 1.1: Localizar arquivo no dispositivo
         OP. 1.2: Verificar formato compatível (JPG, PNG)
         OP. 1.3: Confirmar tamanho do arquivo (máx. 10MB)
         OP. 1.4: Verificar se arquivo está pronto para upload
 
     GOAL 2: Acessar sistema de upload
+       METHOD: Navegar pelo Menu Principal
         OP. 2.1: Navegar para seção "Detector"
         OP. 2.2: Clicar em "Analisar Imagem"
         OP. 2.3: Verificar acesso à interface de upload
@@ -144,12 +146,14 @@ GOAL 0: Verificar se a imagem é um deepfake
           OP. 3.B.3: Verificar que imagem foi carregada corretamente
 
       GOAL 4: Executar análise <br>
+       METHOD: Acionar processamento via botão
         OP. 4.1: Clicar em "Iniciar Análise"
         OP. 4.2: Acompanhar barra de progresso
         OP. 4.3: Aguardar processamento completo
         OP. 4.4: Verificar conclusão da análise
 
     GOAL 5: Visualizar e interpretar resultado <br>
+      METHOD: Leitura e Interpretação Visual
         OP. 5.1: Analisar pontuação de autenticidade (0% - 100%)
         OP. 5.2: Examinar indicadores visuais da imagem
         OP. 5.3: Baixar relatório
@@ -169,6 +173,7 @@ Esta funcionalidade permite que usuários compartilhem resultados de análises d
 GOAL 0: Permitir compartilhar análises de imagens possivelmente deepfakes
 
   GOAL 1: Selecionar resultado a ser compartilhado
+    METHOD: Interação via Interface de Resultados
       OP. 1.1: Visualizar resultado da análise por meio da interface
       OP. 1.2: Pressionar o botão de compartilhar análise
       OP. 1.3: Verificar icones de apps para compartilhamento
@@ -211,6 +216,7 @@ GOAL 0: Permitir compartilhar análises de imagens possivelmente deepfakes
       OP. 3.C.4: Verificar configuração do email
 
   OP. 4: Enviar compartilhamento
+        
 ```
 ---
 ## **2) GOMS (Goals, Operators, Methods, Selection Rules)**
