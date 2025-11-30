@@ -7,7 +7,7 @@
 Upload e Análise de Imagem para Detecção de Deepfake.
 
 **Descrição da Funcionalidade:** <br>
-Esta funcionalidade permite que usuários façam upload de um arquivo de imagem para verificar se ela contém deepfakes. O sistema processa a imagem utilizando algoritmos de IA (EfficientNet-B0) e retorna um resultado com indicadores de confiabilidade.
+Esta funcionalidade permite que usuários façam upload de um arquivo de imagem para verificar se ela contém deepfakes. O sistema processa a imagem utilizando algoritmos de IA (Xception Legacy) e retorna um resultado com indicadores de confiabilidade.
 
 **Diagrama:** <br>
 ![HTA_VerificarIMG](https://github.com/user-attachments/assets/991fa6de-849f-45e7-827b-540bbf60bb77)
